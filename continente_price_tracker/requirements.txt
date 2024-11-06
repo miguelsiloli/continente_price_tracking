@@ -11,7 +11,7 @@ python-dotenv>=0.5.1
 requests
 pandas
 prefect
-bs4
+beautifulsoup4
 
 
 # backwards compatibility
