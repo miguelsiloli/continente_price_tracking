@@ -188,7 +188,7 @@ def fetch_all_products_for_category(cgid, sz=216, pmin="0.01", srule="FRESH-Peix
 def process_and_save_categories():
     initial_url = "https://www.continente.pt/"
     initial_response = requests.get(initial_url)
-    base_path = "data/raw/"
+    base_path = "data/"
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
