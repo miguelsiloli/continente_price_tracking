@@ -188,7 +188,7 @@ def fetch_all_products_for_category(cgid, sz=216, pmin="0.01", srule="FRESH-Peix
 def process_and_save_categories():
     initial_url = "https://www.continente.pt/"
     initial_response = requests.get(initial_url)
-    base_path = "continente_price_tracker/data/"
+    # base_path = "continente_price_tracker/data/"
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
@@ -199,7 +199,7 @@ def process_and_save_categories():
         df_category_products = fetch_all_products_for_category(category)
         if not df_category_products.empty:
             filename = f"{category}_{timestamp}.csv"
-            filename = base_path + filename
+            # filename = base_path + filename
             df_category_products.to_csv(filename, index=False)
             print(f"Saved data for category '{category}' to {filename}")
         else:
