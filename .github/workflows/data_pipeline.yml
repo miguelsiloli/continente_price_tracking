@@ -25,7 +25,7 @@ jobs:
 
       - name: Run data pipeline
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB }}
         run: |
           python continente_price_tracker/src/catalog.py
 
