@@ -1,7 +1,17 @@
+from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-from .utils import retry_on_failure
+import sys
+import os
+
+# this is only for testing purposes in VM
+
+src_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), '..', '..', 'src'))
+sys.path.append(src_path)
+
+from utils import retry_on_failure
 import time
 
 
@@ -170,13 +180,18 @@ def parse_all_pages_for_category(categoria):
         all_products_df = pd.concat([all_products_df, products_df],
                                     ignore_index=True)
         time.sleep(
-            5
+            3
         )  # Avoid overloading the server with too many requests in a short time
 
+    # Create a timestamp for unique filenames
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    all_products_df["source"] = "pingo-doce"
+    all_products_df["timestamp"] = timestamp
+    
     return all_products_df
 
-
-def parse_and_save_all_categories(categories):
+def parse_and_save_all_categories(categories, base_path="data"):
     """
     Parses and saves the product data for multiple categories as CSV files.
 
@@ -185,20 +200,37 @@ def parse_and_save_all_categories(categories):
 
     Parameters:
     - categories (list): A list of category strings (e.g., ["pingo-doce-lacticinios", "pingo-doce-bebidas"]).
+    - base_path (str): The directory path where CSV files will be saved. Default is "data".
 
     Returns:
     - None: This function does not return anything. It saves product data as CSV files.
 
     Example:
     >>> categories = ["pingo-doce-lacticinios", "pingo-doce-bebidas"]
-    >>> parse_and_save_all_categories(categories)  # Saves data for all categories in CSV files.
+    >>> parse_and_save_all_categories(categories, base_path="continente_price_tracker/data")  # Saves data to the specified directory.
     """
+
+    # Ensure the base path exists; if not, create it
+    if not os.path.exists(base_path):
+        os.makedirs(base_path)
+        print(f"Directory '{base_path}' created.")
+
     for categoria in categories:
         print(f"Parsing category: {categoria}")
+
+        # Fetch all products for the category
         all_products_df = parse_all_pages_for_category(categoria)
-        csv_filename = f"{categoria.replace(' ', '_')}.csv"
-        all_products_df.to_csv(csv_filename, index=False)
-        print(f"Saved data for category '{categoria}' to '{csv_filename}'")
+
+        if not all_products_df.empty:
+            # Create filename based on the category and the base path
+            csv_filename = f"{categoria.replace(' ', '_')}.csv"
+            file_path = os.path.join(base_path, csv_filename)
+
+            # Save the DataFrame to a CSV file in the base path
+            all_products_df.to_csv(file_path, index=False)
+            print(f"Saved data for category '{categoria}' to '{file_path}'")
+        else:
+            print(f"No data found for category '{categoria}'. Skipping...")
 
 
 if __name__ == "__main__":

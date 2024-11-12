@@ -7,6 +7,7 @@ import time
 import random
 from datetime import datetime
 from utils import retry_on_failure
+import os
 
 
 def parse_total_products(html_content):
@@ -192,29 +193,41 @@ def fetch_all_products_for_category(cgid,
     return df
 
 
-def process_and_save_categories():
-    initial_url = "https://www.continente.pt/"
-    initial_response = requests.get(initial_url)
-    # base_path = "continente_price_tracker/data/"
+def process_and_save_categories(base_path="data/continente"):
+    """
+    Fetches product data for multiple categories and saves them to CSV files in the specified directory.
 
+    Args:
+        base_path (str): The directory where the CSV files will be saved. Defaults to "data".
+    """
+    # Ensure the base path exists; if not, create it
+    if not os.path.exists(base_path):
+        os.makedirs(base_path)
+        print(f"Directory '{base_path}' created.")
+
+    # Base URL to make requests (could be useful for fetching pages etc.)
+    initial_url = "https://www.continente.pt/"
+    requests.get(initial_url)  # Just hitting the URL to initialize, if needed
+
+    # Create a timestamp for unique filenames
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
+    # List of categories to fetch
     CATEGORIES = [
         "congelados", "frescos", "mercearias", "bebidas", "biologicos",
         "limpeza", "higiene-beleza", "bebe"
     ]
 
+    # Iterate through categories and fetch/save product data
     for category in CATEGORIES:
         print(f"Processing category: {category}")
         df_category_products = fetch_all_products_for_category(category)
+
         if not df_category_products.empty:
             filename = f"{category}_{timestamp}.csv"
-            # filename = base_path + filename
-            df_category_products.to_csv(filename, index=False)
-            print(f"Saved data for category '{category}' to {filename}")
+            file_path = os.path.join(base_path,
+                                     filename)  # Path to save the file
+            df_category_products.to_csv(file_path, index=False)
+            print(f"Saved data for category '{category}' to {file_path}")
         else:
             print(f"No data found for category {category}.")
-
-
-# Call the function to execute
-process_and_save_categories()

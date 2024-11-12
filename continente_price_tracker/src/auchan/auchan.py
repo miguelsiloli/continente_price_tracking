@@ -1,11 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
+import os
 import pandas as pd
 import time
 import json
-from ..utils import retry_on_failure
-# from functools import lru_cache
+from datetime import datetime
+from utils import retry_on_failure
 
 
 def parse_products_from_html(html_content):
@@ -215,10 +216,9 @@ def get_and_parse_auchan_data(cgid, prefn1, prefv1, sz, base_url):
                 return all_data
 
             all_data = pd.concat([all_data, parsed_data], ignore_index=True)
-            print(all_data)
 
             pbar.update(1)
-            time.sleep(5)
+            time.sleep(3)
 
             if len(parsed_data) < sz:
                 break
@@ -229,6 +229,52 @@ def get_and_parse_auchan_data(cgid, prefn1, prefv1, sz, base_url):
     return all_data
 
 
+def save_data_for_all_cgids(cgid_list,
+                            prefn1,
+                            prefv1,
+                            sz,
+                            base_url,
+                            base_path="data"):
+    """
+    Fetches and processes product data for each cgid in the list and saves it to CSV files in the specified directory.
+
+    Args:
+        cgid_list (list): List of cgid values for which data will be fetched.
+        prefn1 (str): The first filter parameter for fetching data.
+        prefv1 (str): The value corresponding to the prefn1 filter.
+        sz (int): The number of items to fetch per request.
+        base_url (str): The base URL for fetching data.
+        base_path (str): The directory where the CSV files will be saved. Defaults to "data".
+    """
+    # Ensure the base path exists; if not, create it
+    if not os.path.exists(base_path):
+        os.makedirs(base_path)
+        print(f"Directory '{base_path}' created.")
+
+    # Create a timestamp for unique filenames
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    # Loop through each cgid and fetch & save the corresponding data
+    for cgid in cgid_list:
+        print(f"Processing cgid: {cgid}")
+
+        # Fetch and parse the data for the given cgid
+        final_data = get_and_parse_auchan_data(cgid, prefn1, prefv1, sz,
+                                               base_url)
+
+        if not final_data.empty:
+            # Create a filename with timestamp and cgid
+            filename = f"{cgid}_{timestamp}.csv"
+            file_path = os.path.join(base_path,
+                                     filename)  # Full path with base directory
+
+            # Save the data to CSV
+            final_data.to_csv(file_path, index=False)
+            print(f"Data for {cgid} saved to {file_path}")
+        else:
+            print(f"No data found for {cgid}. Skipping...")
+
+
 # List of cgid values
 cgid_list = [
     "alimentacao-", "biologico-e-escolhas-alimentares",
@@ -236,15 +282,17 @@ cgid_list = [
 ]
 
 if __name__ == "__main__":
-    # Parameters
+    # Example Usage
+    cgid_list = ['category1', 'category2',
+                 'category3']  # Replace with actual cgid list
     prefn1 = "soldInStores"
     prefv1 = "000"
     sz = 212
     base_url = "https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid"
 
-    # Loop through each cgid and save the corresponding DataFrame to a CSV file
-    for cgid in cgid_list:
-        final_data = get_and_parse_auchan_data(cgid, prefn1, prefv1, sz,
-                                               base_url)
-        final_data.to_csv(f"{cgid}.csv", index=False)
-        print(f"Data for {cgid} saved to {cgid}.csv")
+    save_data_for_all_cgids(cgid_list,
+                            prefn1,
+                            prefv1,
+                            sz,
+                            base_url,
+                            base_path="data/auchan")

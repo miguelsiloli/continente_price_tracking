@@ -3,6 +3,12 @@ continente_price_tracker
 
 A simple ETL tool to track item pricing
 
+TODO:
+
+- Add pipeline visualization and logging
+    - Pipeline is decomposed in 3 service providers, each one should have a status
+- Add pipeline metrics (number of files created, total lines, time elapsed, sum null per column)
+    
 Project Organization
 ------------
 
