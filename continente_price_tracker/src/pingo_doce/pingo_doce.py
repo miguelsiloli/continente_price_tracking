@@ -185,13 +185,14 @@ def parse_all_pages_for_category(categoria):
 
     # Create a timestamp for unique filenames
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    
+
     all_products_df["source"] = "pingo-doce"
     all_products_df["timestamp"] = timestamp
-    
+
     return all_products_df
 
-def parse_and_save_all_categories(categories, base_path="data"):
+
+def parse_and_save_all_categories(categories, base_path="data/pingo_doce"):
     """
     Parses and saves the product data for multiple categories as CSV files.
 

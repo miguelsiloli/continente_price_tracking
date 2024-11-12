@@ -1,4 +1,4 @@
-from catalog import process_and_save_categories
+from continente.catalog import process_and_save_categories
 from pingo_doce.pingo_doce import parse_and_save_all_categories
 from auchan.auchan import save_data_for_all_cgids
 
@@ -14,7 +14,7 @@ categories = [
     "pingo-doce-refeicoes-prontas"
 ]
 
-# parse_and_save_all_categories(categories)
+parse_and_save_all_categories(categories)
 
 cgid_list = [
     "alimentacao-", "biologico-e-escolhas-alimentares",
@@ -25,9 +25,9 @@ prefv1 = "000"
 sz = 212
 base_url = "https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid"
 
-save_data_for_all_cgids(cgid_list,
-                        prefn1,
-                        prefv1,
-                        sz,
-                        base_url,
-                        base_path="data/auchan")
+# save_data_for_all_cgids(cgid_list,
+#                        prefn1,
+#                        prefv1,
+#                        sz,
+#                        base_url,
+#                        base_path="data/auchan")
