@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import sys
 import os
+from logger import setup_logger
 
 # this is only for testing purposes in VM
 
@@ -148,90 +149,74 @@ def parse_products_from_html(html_content):
     return product_df
 
 
+# Assume setup_logger is defined elsewhere
+logger = setup_logger("logs/pingo_doce_scraper.log")
+
 @retry_on_failure(retries=3, delay=60)
 def parse_all_pages_for_category(categoria):
     """
     Fetches and parses all pages for a specific category on the Pingo Doce website.
-
-    This function determines the total number of pages for the category and iterates through
-    all pages, extracting product details from each.
-
-    Parameters:
-    - categoria (str): The category of products to scrape (e.g., "pingo-doce-lacticinios").
-
-    Returns:
-    - pd.DataFrame: A pandas DataFrame containing product details from all pages of the specified category.
-
-    Example:
-    >>> category_data = parse_all_pages_for_category("pingo-doce-lacticinios")
-    >>> print(category_data.head())  # Prints the first few rows of all products from the category.
     """
+    logger.info(f"Starting to parse all pages for category: {categoria}")
     first_page_html = fetch_html_from_pingodoce(cp=1, categoria=categoria)
     last_page = parse_last_page(first_page_html)
 
     if last_page is None:
-        last_page = 1  # Assume only 1 page if last page could not be determined.
+        last_page = 1
+        logger.warning(f"Could not determine last page for category {categoria}. Assuming only 1 page.")
+    else:
+        logger.info(f"Found {last_page} pages for category {categoria}")
 
     all_products_df = pd.DataFrame()
 
     for cp in range(1, last_page + 1):
-        html_content = fetch_html_from_pingodoce(cp, categoria)
-        products_df = parse_products_from_html(html_content)
-        all_products_df = pd.concat([all_products_df, products_df],
-                                    ignore_index=True)
-        time.sleep(
-            3
-        )  # Avoid overloading the server with too many requests in a short time
+        logger.debug(f"Fetching page {cp} of {last_page} for category {categoria}")
+        try:
+            html_content = fetch_html_from_pingodoce(cp, categoria)
+            products_df = parse_products_from_html(html_content)
+            all_products_df = pd.concat([all_products_df, products_df], ignore_index=True)
+            logger.info(f"Successfully parsed page {cp} for category {categoria}. Total products so far: {len(all_products_df)}")
+        except Exception as e:
+            logger.error(f"Error parsing page {cp} for category {categoria}: {str(e)}", exc_info=True)
+        
+        time.sleep(3)
+        logger.debug(f"Waiting 3 seconds before next request")
 
-    # Create a timestamp for unique filenames
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
     all_products_df["source"] = "pingo-doce"
     all_products_df["timestamp"] = timestamp
 
+    logger.info(f"Completed parsing all pages for category {categoria}. Total products: {len(all_products_df)}")
     return all_products_df
 
-
-def parse_and_save_all_categories(categories, base_path="data/pingo_doce"):
+def parse_and_save_all_categories(categories, base_path="data/raw/pingo_doce"):
     """
     Parses and saves the product data for multiple categories as CSV files.
-
-    This function iterates over each category in the `categories` list, fetches product data 
-    from all pages for each category, and saves the data to a CSV file named after the category.
-
-    Parameters:
-    - categories (list): A list of category strings (e.g., ["pingo-doce-lacticinios", "pingo-doce-bebidas"]).
-    - base_path (str): The directory path where CSV files will be saved. Default is "data".
-
-    Returns:
-    - None: This function does not return anything. It saves product data as CSV files.
-
-    Example:
-    >>> categories = ["pingo-doce-lacticinios", "pingo-doce-bebidas"]
-    >>> parse_and_save_all_categories(categories, base_path="continente_price_tracker/data")  # Saves data to the specified directory.
     """
+    logger.info(f"Starting to parse and save data for {len(categories)} categories")
 
-    # Ensure the base path exists; if not, create it
+    base_path = base_path + "/" + datetime.now().strftime("%Y%m%d")
+
     if not os.path.exists(base_path):
         os.makedirs(base_path)
-        print(f"Directory '{base_path}' created.")
+        logger.info(f"Created directory: {base_path}")
 
     for categoria in categories:
-        print(f"Parsing category: {categoria}")
+        logger.info(f"Processing category: {categoria}")
+        try:
+            all_products_df = parse_all_pages_for_category(categoria)
 
-        # Fetch all products for the category
-        all_products_df = parse_all_pages_for_category(categoria)
+            if not all_products_df.empty:
+                csv_filename = f"{categoria.replace(' ', '_')}.csv"
+                file_path = os.path.join(base_path, csv_filename)
+                all_products_df.to_csv(file_path, index=False)
+                logger.info(f"Saved data for category '{categoria}' to '{file_path}'. Total products: {len(all_products_df)}")
+            else:
+                logger.warning(f"No data found for category '{categoria}'. Skipping...")
+        except Exception as e:
+            logger.error(f"Error processing category {categoria}: {str(e)}", exc_info=True)
 
-        if not all_products_df.empty:
-            # Create filename based on the category and the base path
-            csv_filename = f"{categoria.replace(' ', '_')}.csv"
-            file_path = os.path.join(base_path, csv_filename)
-
-            # Save the DataFrame to a CSV file in the base path
-            all_products_df.to_csv(file_path, index=False)
-            print(f"Saved data for category '{categoria}' to '{file_path}'")
-        else:
-            print(f"No data found for category '{categoria}'. Skipping...")
+    logger.info("Completed parsing and saving data for all categories")
 
 
 if __name__ == "__main__":
@@ -240,7 +225,7 @@ if __name__ == "__main__":
         "pingo-doce-lacticinios", "pingo-doce-bebidas",
         "pingo-doce-frescos-embalados", "pingo-doce-higiene-e-beleza",
         "pingo-doce-maquinas-e-capsulas-de-cafe", "pingo-doce-mercearia",
-        "pingo-doce-refeicoes-prontas"
+        "pingo-doce-refeicoes-prontas", "pingo-doce-cozinha-e-limpeza", "pingo-doce-congelados"
     ]
 
     parse_and_save_all_categories(categories)

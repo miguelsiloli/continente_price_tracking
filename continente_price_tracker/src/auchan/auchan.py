@@ -7,6 +7,7 @@ import time
 import json
 from datetime import datetime
 from utils import retry_on_failure
+from logger import setup_logger
 
 
 def parse_products_from_html(html_content):
@@ -34,7 +35,7 @@ def parse_products_from_html(html_content):
         "product_ratings": pd.Series(dtype='str'),
         "product_labels": pd.Series(dtype='str'),
         "product_promotions": pd.Series(dtype='str'),
-        "quantity_selector": pd.Series(dtype='str')
+        # "quantity_selector": pd.Series(dtype='str')
     }
 
     # Create an empty DataFrame with the defined schema
@@ -107,18 +108,18 @@ def parse_products_from_html(html_content):
         ) if product_promotions else None
 
         # Extract quantity selector details (assign None if not found)
-        quantity_selector = product.find('div', class_='auc-qty-selector')
-        if quantity_selector:
-            product_data['quantity_selector'] = quantity_selector
-        else:
-            product_data['quantity_selector'] = None
+        # quantity_selector = product.find('div', class_='auc-qty-selector')
+        # if quantity_selector:
+        #     product_data['quantity_selector'] = quantity_selector
+        # else:
+        #     product_data['quantity_selector'] = None
 
         # Convert nested dictionaries to JSON strings for DataFrame compatibility
         product_data["product_urls"] = str(product_data["product_urls"])
         product_data["product_ratings"] = str(product_data["product_ratings"])
         product_data["product_labels"] = str(product_data["product_labels"])
-        product_data["quantity_selector"] = str(
-            product_data["quantity_selector"])
+        # product_data["quantity_selector"] = str(
+        #     product_data["quantity_selector"])
 
         # Append the product data to the list
         product_list.append(product_data)
@@ -184,7 +185,7 @@ def get_auchan_data(cgid, prefn1, prefv1, start, sz, next, selectedUrl):
 
 
 @retry_on_failure(retries=3, delay=60)
-def get_and_parse_auchan_data(cgid, prefn1, prefv1, sz, base_url):
+def get_and_parse_auchan_data(cgid, prefn1, prefv1, sz, base_url, logger):
     """
     Retrieves and parses product data from the Auchan store in a paginated manner.
 
@@ -194,6 +195,7 @@ def get_and_parse_auchan_data(cgid, prefn1, prefv1, sz, base_url):
         prefv1 (str): The value of the first preference filter.
         sz (int): The number of products to fetch per request.
         base_url (str): The base URL of the search results.
+        logger (logging.Logger): The logger object for logging messages.
 
     Returns:
         pd.DataFrame: A DataFrame containing parsed product information across multiple pages.
@@ -201,18 +203,17 @@ def get_and_parse_auchan_data(cgid, prefn1, prefv1, sz, base_url):
     start = 0
     all_data = pd.DataFrame()
 
-    # idk about the total value
-    with tqdm(total=20, unit='batch') as pbar:
+    with tqdm(total=30, unit='batch') as pbar:
         while True:
             selectedUrl = f"{base_url}?cgid={cgid}&prefn1={prefn1}&prefv1={prefv1}&start={start}&sz={sz}&next=true"
 
             try:
-                data = get_auchan_data(cgid, prefn1, prefv1, start, sz, "true",
-                                       selectedUrl)
+                data = get_auchan_data(cgid, prefn1, prefv1, start, sz, "true", selectedUrl)
+                logger.info(f"Successful GET request for URL: {selectedUrl}")
                 parsed_data = parse_products_from_html(data)
 
-            except:
-                # im assuming if this breaks its probably because data is empty of products
+            except Exception as e:
+                logger.error(f"Error fetching data for URL {selectedUrl}: {str(e)}")
                 return all_data
 
             all_data = pd.concat([all_data, parsed_data], ignore_index=True)
@@ -234,7 +235,7 @@ def save_data_for_all_cgids(cgid_list,
                             prefv1,
                             sz,
                             base_url,
-                            base_path="data"):
+                            base_path="data/raw"):
     """
     Fetches and processes product data for each cgid in the list and saves it to CSV files in the specified directory.
 
@@ -246,53 +247,55 @@ def save_data_for_all_cgids(cgid_list,
         base_url (str): The base URL for fetching data.
         base_path (str): The directory where the CSV files will be saved. Defaults to "data".
     """
+    # Create a timestamp for unique filenames and logging
+    timestamp = datetime.now().strftime("%Y%m%d")
+
+    # Set up logging
+    log_directory = "logs"
+    os.makedirs(log_directory, exist_ok=True)
+    log_path = os.path.join(log_directory, f"auchan_{timestamp}.log")
+    logger = setup_logger(log_path)
+
+    logger.info(f"Starting data fetch process for {len(cgid_list)} cgids")
+
     # Ensure the base path exists; if not, create it
     if not os.path.exists(base_path):
         os.makedirs(base_path)
-        print(f"Directory '{base_path}' created.")
+        logger.info(f"Directory '{base_path}' created.")
 
-    # Create a timestamp for unique filenames
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    # Create a subdirectory with timestamp if base_path doesn't exist
+    data_directory = os.path.join(base_path, timestamp)
+    os.makedirs(data_directory, exist_ok=True)
+    logger.info(f"Data will be saved in '{data_directory}'")
 
     # Loop through each cgid and fetch & save the corresponding data
     for cgid in cgid_list:
-        print(f"Processing cgid: {cgid}")
+        logger.info(f"Processing cgid: {cgid}")
 
-        # Fetch and parse the data for the given cgid
-        final_data = get_and_parse_auchan_data(cgid, prefn1, prefv1, sz,
-                                               base_url)
+        try:
+            # Fetch and parse the data for the given cgid
+            final_data = get_and_parse_auchan_data(cgid, prefn1, prefv1, sz, base_url, logger)
+            final_data["source"] = "auchan"
+            final_data["timestamp"] = timestamp
 
-        if not final_data.empty:
-            # Create a filename with timestamp and cgid
-            filename = f"{cgid}_{timestamp}.csv"
-            file_path = os.path.join(base_path,
-                                     filename)  # Full path with base directory
+            if not final_data.empty:
+                # Create a filename with timestamp and cgid
+                filename = f"{cgid}_{timestamp}.csv"
+                file_path = os.path.join(data_directory, filename)
 
-            # Save the data to CSV
-            final_data.to_csv(file_path, index=False)
-            print(f"Data for {cgid} saved to {file_path}")
-        else:
-            print(f"No data found for {cgid}. Skipping...")
+                # Save the data to CSV
+                final_data.to_csv(file_path, index=False)
+                logger.info(f"Data for {cgid} saved to {file_path}")
+            else:
+                logger.warning(f"No data found for {cgid}. Skipping...")
+        except Exception as e:
+            logger.error(f"Error processing cgid {cgid}: {str(e)}", exc_info=True)
+
+    logger.info("Data fetch process completed")
 
 
 # List of cgid values
-cgid_list = [
-    "alimentacao-", "biologico-e-escolhas-alimentares",
-    "limpeza-da-casa-e-roupa", "bebidas-e-garrafeira", "marcas-auchan"
-]
-
-if __name__ == "__main__":
-    # Example Usage
-    cgid_list = ['category1', 'category2',
-                 'category3']  # Replace with actual cgid list
-    prefn1 = "soldInStores"
-    prefv1 = "000"
-    sz = 212
-    base_url = "https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid"
-
-    save_data_for_all_cgids(cgid_list,
-                            prefn1,
-                            prefv1,
-                            sz,
-                            base_url,
-                            base_path="data/auchan")
+# cgid_list = [
+#     "alimentacao-", "biologico-e-escolhas-alimentares",
+#     "limpeza-da-casa-e-roupa", "bebidas-e-garrafeira", "marcas-auchan"
+# ]

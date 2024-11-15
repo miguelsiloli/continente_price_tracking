@@ -1,0 +1,556 @@
+2024-11-13 13:33:05,907 - logger - INFO - pingo_doce.py:196 - parse_and_save_all_categories - Starting to parse and save data for 7 categories
+2024-11-13 13:33:05,909 - logger - INFO - pingo_doce.py:202 - parse_and_save_all_categories - Created directory: data/pingo_doce/20241113
+2024-11-13 13:33:05,909 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-lacticinios
+2024-11-13 13:33:05,910 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-lacticinios
+2024-11-13 13:33:07,966 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 10 pages for category pingo-doce-lacticinios
+2024-11-13 13:33:08,265 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-lacticinios. Total products so far: 24
+2024-11-13 13:33:13,181 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-lacticinios. Total products so far: 48
+2024-11-13 13:33:17,743 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-lacticinios. Total products so far: 72
+2024-11-13 13:33:22,126 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-lacticinios. Total products so far: 96
+2024-11-13 13:33:41,887 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-lacticinios. Total products so far: 120
+2024-11-13 13:33:46,452 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 6 for category pingo-doce-lacticinios. Total products so far: 144
+2024-11-13 13:33:51,347 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 7 for category pingo-doce-lacticinios. Total products so far: 168
+2024-11-13 13:33:55,844 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 8 for category pingo-doce-lacticinios. Total products so far: 192
+2024-11-13 13:34:00,928 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 9 for category pingo-doce-lacticinios. Total products so far: 216
+2024-11-13 13:34:05,604 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 10 for category pingo-doce-lacticinios. Total products so far: 222
+2024-11-13 13:34:08,620 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-lacticinios. Total products: 222
+2024-11-13 13:34:08,648 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-lacticinios' to 'data/pingo_doce/20241113\pingo-doce-lacticinios.csv'. Total products: 222
+2024-11-13 13:34:08,649 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-bebidas
+2024-11-13 13:34:08,650 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-bebidas
+2024-11-13 13:34:10,354 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 5 pages for category pingo-doce-bebidas
+2024-11-13 13:34:10,673 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-bebidas. Total products so far: 24
+2024-11-13 13:34:15,487 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-bebidas. Total products so far: 48
+2024-11-13 13:34:18,722 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-bebidas. Total products so far: 72
+2024-11-13 13:34:23,563 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-bebidas. Total products so far: 96
+2024-11-13 13:34:27,903 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-bebidas. Total products so far: 117
+2024-11-13 13:34:30,910 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-bebidas. Total products: 117
+2024-11-13 13:34:30,914 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-bebidas' to 'data/pingo_doce/20241113\pingo-doce-bebidas.csv'. Total products: 117
+2024-11-13 13:34:30,916 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-frescos-embalados
+2024-11-13 13:34:30,916 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-frescos-embalados
+2024-11-13 13:34:32,096 - logger - WARNING - pingo_doce.py:166 - parse_all_pages_for_category - Could not determine last page for category pingo-doce-frescos-embalados. Assuming only 1 page.
+2024-11-13 13:34:32,391 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-frescos-embalados. Total products so far: 18
+2024-11-13 13:34:35,393 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-frescos-embalados. Total products: 18
+2024-11-13 13:34:35,395 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-frescos-embalados' to 'data/pingo_doce/20241113\pingo-doce-frescos-embalados.csv'. Total products: 18
+2024-11-13 13:34:35,396 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-higiene-e-beleza
+2024-11-13 13:34:35,397 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-higiene-e-beleza
+2024-11-13 13:34:36,864 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 6 pages for category pingo-doce-higiene-e-beleza
+2024-11-13 13:34:37,097 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-higiene-e-beleza. Total products so far: 24
+2024-11-13 13:34:42,413 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-higiene-e-beleza. Total products so far: 48
+2024-11-13 13:34:47,211 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-higiene-e-beleza. Total products so far: 72
+2024-11-13 13:34:51,932 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-higiene-e-beleza. Total products so far: 96
+2024-11-13 13:34:56,548 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-higiene-e-beleza. Total products so far: 120
+2024-11-13 13:35:02,674 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 6 for category pingo-doce-higiene-e-beleza. Total products so far: 132
+2024-11-13 13:35:05,690 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-higiene-e-beleza. Total products: 132
+2024-11-13 13:35:05,694 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-higiene-e-beleza' to 'data/pingo_doce/20241113\pingo-doce-higiene-e-beleza.csv'. Total products: 132
+2024-11-13 13:35:05,695 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-maquinas-e-capsulas-de-cafe
+2024-11-13 13:35:05,696 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-maquinas-e-capsulas-de-cafe
+2024-11-13 13:35:07,384 - logger - WARNING - pingo_doce.py:166 - parse_all_pages_for_category - Could not determine last page for category pingo-doce-maquinas-e-capsulas-de-cafe. Assuming only 1 page.
+2024-11-13 13:35:07,632 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-maquinas-e-capsulas-de-cafe. Total products so far: 22
+2024-11-13 13:35:10,645 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-maquinas-e-capsulas-de-cafe. Total products: 22
+2024-11-13 13:35:10,649 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-maquinas-e-capsulas-de-cafe' to 'data/pingo_doce/20241113\pingo-doce-maquinas-e-capsulas-de-cafe.csv'. Total products: 22
+2024-11-13 13:35:10,651 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-mercearia
+2024-11-13 13:35:10,652 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-mercearia
+2024-11-13 13:35:12,867 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 29 pages for category pingo-doce-mercearia
+2024-11-13 13:35:13,102 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-mercearia. Total products so far: 24
+2024-11-13 13:35:18,007 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-mercearia. Total products so far: 48
+2024-11-13 13:35:23,279 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-mercearia. Total products so far: 72
+2024-11-13 13:35:28,396 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-mercearia. Total products so far: 96
+2024-11-13 13:35:32,914 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-mercearia. Total products so far: 120
+2024-11-13 13:35:38,031 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 6 for category pingo-doce-mercearia. Total products so far: 144
+2024-11-13 13:35:43,068 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 7 for category pingo-doce-mercearia. Total products so far: 168
+2024-11-13 13:35:48,102 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 8 for category pingo-doce-mercearia. Total products so far: 192
+2024-11-13 13:35:52,597 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 9 for category pingo-doce-mercearia. Total products so far: 216
+2024-11-13 13:35:57,515 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 10 for category pingo-doce-mercearia. Total products so far: 240
+2024-11-13 13:36:02,600 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 11 for category pingo-doce-mercearia. Total products so far: 264
+2024-11-13 13:36:07,395 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 12 for category pingo-doce-mercearia. Total products so far: 288
+2024-11-13 13:36:13,140 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 13 for category pingo-doce-mercearia. Total products so far: 312
+2024-11-13 13:36:18,194 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 14 for category pingo-doce-mercearia. Total products so far: 336
+2024-11-13 13:36:23,516 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 15 for category pingo-doce-mercearia. Total products so far: 360
+2024-11-13 13:36:28,721 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 16 for category pingo-doce-mercearia. Total products so far: 384
+2024-11-13 13:36:33,152 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 17 for category pingo-doce-mercearia. Total products so far: 408
+2024-11-13 13:36:38,000 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 18 for category pingo-doce-mercearia. Total products so far: 432
+2024-11-13 13:36:42,848 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 19 for category pingo-doce-mercearia. Total products so far: 456
+2024-11-13 13:36:47,792 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 20 for category pingo-doce-mercearia. Total products so far: 480
+2024-11-13 13:36:52,443 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 21 for category pingo-doce-mercearia. Total products so far: 504
+2024-11-13 13:36:57,304 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 22 for category pingo-doce-mercearia. Total products so far: 528
+2024-11-13 13:37:02,240 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 23 for category pingo-doce-mercearia. Total products so far: 552
+2024-11-13 13:37:07,202 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 24 for category pingo-doce-mercearia. Total products so far: 576
+2024-11-13 13:37:12,058 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 25 for category pingo-doce-mercearia. Total products so far: 600
+2024-11-13 13:37:16,706 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 26 for category pingo-doce-mercearia. Total products so far: 624
+2024-11-13 13:37:21,758 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 27 for category pingo-doce-mercearia. Total products so far: 648
+2024-11-13 13:37:26,250 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 28 for category pingo-doce-mercearia. Total products so far: 672
+2024-11-13 13:37:31,151 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 29 for category pingo-doce-mercearia. Total products so far: 692
+2024-11-13 13:37:34,172 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-mercearia. Total products: 692
+2024-11-13 13:37:34,180 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-mercearia' to 'data/pingo_doce/20241113\pingo-doce-mercearia.csv'. Total products: 692
+2024-11-13 13:37:34,181 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-refeicoes-prontas
+2024-11-13 13:37:34,182 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-refeicoes-prontas
+2024-11-13 13:37:35,936 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 2 pages for category pingo-doce-refeicoes-prontas
+2024-11-13 13:37:36,161 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-refeicoes-prontas. Total products so far: 24
+2024-11-13 13:37:40,752 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-refeicoes-prontas. Total products so far: 27
+2024-11-13 13:37:43,760 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-refeicoes-prontas. Total products: 27
+2024-11-13 13:37:43,763 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-refeicoes-prontas' to 'data/pingo_doce/20241113\pingo-doce-refeicoes-prontas.csv'. Total products: 27
+2024-11-13 13:37:43,763 - logger - INFO - pingo_doce.py:219 - parse_and_save_all_categories - Completed parsing and saving data for all categories
+2024-11-13 17:32:45,885 - logger - INFO - pingo_doce.py:196 - parse_and_save_all_categories - Starting to parse and save data for 7 categories
+2024-11-13 17:32:45,891 - logger - INFO - pingo_doce.py:202 - parse_and_save_all_categories - Created directory: data/raw/pingo_doce/20241113
+2024-11-13 17:32:45,891 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-lacticinios
+2024-11-13 17:32:45,892 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-lacticinios
+2024-11-13 17:32:48,073 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 10 pages for category pingo-doce-lacticinios
+2024-11-13 17:32:48,447 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-lacticinios. Total products so far: 24
+2024-11-13 17:32:53,365 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-lacticinios. Total products so far: 48
+2024-11-13 17:32:58,296 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-lacticinios. Total products so far: 72
+2024-11-13 17:33:03,378 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-lacticinios. Total products so far: 96
+2024-11-13 17:33:08,551 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-lacticinios. Total products so far: 120
+2024-11-13 17:33:13,235 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 6 for category pingo-doce-lacticinios. Total products so far: 144
+2024-11-13 17:33:18,013 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 7 for category pingo-doce-lacticinios. Total products so far: 168
+2024-11-13 17:33:23,294 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 8 for category pingo-doce-lacticinios. Total products so far: 192
+2024-11-13 17:33:28,198 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 9 for category pingo-doce-lacticinios. Total products so far: 216
+2024-11-13 17:33:32,568 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 10 for category pingo-doce-lacticinios. Total products so far: 222
+2024-11-13 17:33:35,664 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-lacticinios. Total products: 222
+2024-11-13 17:33:35,845 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-lacticinios' to 'data/raw/pingo_doce/20241113\pingo-doce-lacticinios.csv'. Total products: 222
+2024-11-13 17:33:35,846 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-bebidas
+2024-11-13 17:33:35,848 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-bebidas
+2024-11-13 17:33:37,888 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 5 pages for category pingo-doce-bebidas
+2024-11-13 17:33:38,080 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-bebidas. Total products so far: 24
+2024-11-13 17:33:43,034 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-bebidas. Total products so far: 48
+2024-11-13 17:33:47,966 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-bebidas. Total products so far: 72
+2024-11-13 17:33:52,960 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-bebidas. Total products so far: 96
+2024-11-13 17:33:57,832 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-bebidas. Total products so far: 117
+2024-11-13 17:34:00,846 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-bebidas. Total products: 117
+2024-11-13 17:34:00,858 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-bebidas' to 'data/raw/pingo_doce/20241113\pingo-doce-bebidas.csv'. Total products: 117
+2024-11-13 17:34:00,861 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-frescos-embalados
+2024-11-13 17:34:00,862 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-frescos-embalados
+2024-11-13 17:34:02,663 - logger - WARNING - pingo_doce.py:166 - parse_all_pages_for_category - Could not determine last page for category pingo-doce-frescos-embalados. Assuming only 1 page.
+2024-11-13 17:34:02,936 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-frescos-embalados. Total products so far: 18
+2024-11-13 17:34:05,939 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-frescos-embalados. Total products: 18
+2024-11-13 17:34:05,943 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-frescos-embalados' to 'data/raw/pingo_doce/20241113\pingo-doce-frescos-embalados.csv'. Total products: 18
+2024-11-13 17:34:05,943 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-higiene-e-beleza
+2024-11-13 17:34:05,944 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-higiene-e-beleza
+2024-11-13 17:34:07,793 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 6 pages for category pingo-doce-higiene-e-beleza
+2024-11-13 17:34:08,020 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-higiene-e-beleza. Total products so far: 24
+2024-11-13 17:34:12,579 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-higiene-e-beleza. Total products so far: 48
+2024-11-13 17:34:17,587 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-higiene-e-beleza. Total products so far: 72
+2024-11-13 17:34:22,408 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-higiene-e-beleza. Total products so far: 96
+2024-11-13 17:34:27,160 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-higiene-e-beleza. Total products so far: 120
+2024-11-13 17:34:31,696 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 6 for category pingo-doce-higiene-e-beleza. Total products so far: 132
+2024-11-13 17:34:34,712 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-higiene-e-beleza. Total products: 132
+2024-11-13 17:34:34,715 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-higiene-e-beleza' to 'data/raw/pingo_doce/20241113\pingo-doce-higiene-e-beleza.csv'. Total products: 132
+2024-11-13 17:34:34,716 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-maquinas-e-capsulas-de-cafe
+2024-11-13 17:34:34,716 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-maquinas-e-capsulas-de-cafe
+2024-11-13 17:34:36,673 - logger - WARNING - pingo_doce.py:166 - parse_all_pages_for_category - Could not determine last page for category pingo-doce-maquinas-e-capsulas-de-cafe. Assuming only 1 page.
+2024-11-13 17:34:36,863 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-maquinas-e-capsulas-de-cafe. Total products so far: 22
+2024-11-13 17:34:39,874 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-maquinas-e-capsulas-de-cafe. Total products: 22
+2024-11-13 17:34:39,877 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-maquinas-e-capsulas-de-cafe' to 'data/raw/pingo_doce/20241113\pingo-doce-maquinas-e-capsulas-de-cafe.csv'. Total products: 22
+2024-11-13 17:34:39,878 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-mercearia
+2024-11-13 17:34:39,879 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-mercearia
+2024-11-13 17:34:41,726 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 29 pages for category pingo-doce-mercearia
+2024-11-13 17:34:42,046 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-mercearia. Total products so far: 24
+2024-11-13 17:34:47,310 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-mercearia. Total products so far: 48
+2024-11-13 17:34:52,417 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-mercearia. Total products so far: 72
+2024-11-13 17:34:57,139 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-mercearia. Total products so far: 96
+2024-11-13 17:35:03,657 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-mercearia. Total products so far: 120
+2024-11-13 17:35:09,373 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 6 for category pingo-doce-mercearia. Total products so far: 144
+2024-11-13 17:35:15,063 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 7 for category pingo-doce-mercearia. Total products so far: 168
+2024-11-13 17:35:21,267 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 8 for category pingo-doce-mercearia. Total products so far: 192
+2024-11-13 17:35:26,375 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 9 for category pingo-doce-mercearia. Total products so far: 216
+2024-11-13 17:35:31,733 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 10 for category pingo-doce-mercearia. Total products so far: 240
+2024-11-13 17:35:36,947 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 11 for category pingo-doce-mercearia. Total products so far: 264
+2024-11-13 17:35:41,954 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 12 for category pingo-doce-mercearia. Total products so far: 288
+2024-11-13 17:35:47,251 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 13 for category pingo-doce-mercearia. Total products so far: 312
+2024-11-13 17:35:53,571 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 14 for category pingo-doce-mercearia. Total products so far: 336
+2024-11-13 17:35:58,804 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 15 for category pingo-doce-mercearia. Total products so far: 360
+2024-11-13 17:36:04,098 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 16 for category pingo-doce-mercearia. Total products so far: 384
+2024-11-13 17:36:09,509 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 17 for category pingo-doce-mercearia. Total products so far: 408
+2024-11-13 17:36:15,092 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 18 for category pingo-doce-mercearia. Total products so far: 432
+2024-11-13 17:36:20,516 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 19 for category pingo-doce-mercearia. Total products so far: 456
+2024-11-13 17:36:25,754 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 20 for category pingo-doce-mercearia. Total products so far: 480
+2024-11-13 17:36:31,328 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 21 for category pingo-doce-mercearia. Total products so far: 504
+2024-11-13 17:36:37,305 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 22 for category pingo-doce-mercearia. Total products so far: 528
+2024-11-13 17:36:42,697 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 23 for category pingo-doce-mercearia. Total products so far: 552
+2024-11-13 17:36:48,752 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 24 for category pingo-doce-mercearia. Total products so far: 576
+2024-11-13 17:36:54,532 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 25 for category pingo-doce-mercearia. Total products so far: 600
+2024-11-13 17:37:00,575 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 26 for category pingo-doce-mercearia. Total products so far: 624
+2024-11-13 17:37:06,069 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 27 for category pingo-doce-mercearia. Total products so far: 648
+2024-11-13 17:37:11,422 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 28 for category pingo-doce-mercearia. Total products so far: 672
+2024-11-13 17:37:16,915 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 29 for category pingo-doce-mercearia. Total products so far: 692
+2024-11-13 17:37:19,928 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-mercearia. Total products: 692
+2024-11-13 17:37:19,939 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-mercearia' to 'data/raw/pingo_doce/20241113\pingo-doce-mercearia.csv'. Total products: 692
+2024-11-13 17:37:19,940 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-refeicoes-prontas
+2024-11-13 17:37:19,941 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-refeicoes-prontas
+2024-11-13 17:37:22,308 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 2 pages for category pingo-doce-refeicoes-prontas
+2024-11-13 17:37:23,142 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-refeicoes-prontas. Total products so far: 24
+2024-11-13 17:37:26,785 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-refeicoes-prontas. Total products so far: 27
+2024-11-13 17:37:29,803 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-refeicoes-prontas. Total products: 27
+2024-11-13 17:37:29,807 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-refeicoes-prontas' to 'data/raw/pingo_doce/20241113\pingo-doce-refeicoes-prontas.csv'. Total products: 27
+2024-11-13 17:37:29,808 - logger - INFO - pingo_doce.py:219 - parse_and_save_all_categories - Completed parsing and saving data for all categories
+2024-11-13 18:11:51,819 - logger - INFO - catalog.py:202 - process_and_save_categories - Starting process_and_save_categories
+2024-11-13 18:11:51,821 - logger - INFO - catalog.py:207 - process_and_save_categories - Directory 'data/raw/continente' created.
+2024-11-13 18:11:56,151 - logger - INFO - catalog.py:213 - process_and_save_categories - Successfully hit the initial URL
+2024-11-13 18:11:56,151 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: congelados
+2024-11-13 18:11:56,152 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: congelados
+2024-11-13 18:11:58,057 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category congelados: 966
+2024-11-13 18:11:59,152 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 966 products for category congelados
+2024-11-13 18:12:08,018 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 966 products for category congelados
+2024-11-13 18:12:17,491 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 966 products for category congelados
+2024-11-13 18:12:29,101 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 966 products for category congelados
+2024-11-13 18:12:42,659 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 966 of 966 products for category congelados
+2024-11-13 18:12:47,679 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category congelados. Total products: 180
+2024-11-13 18:12:47,689 - logger - ERROR - catalog.py:241 - process_and_save_categories - Error processing category congelados: Cannot save file into a non-existent directory: 'data\raw\continente\20241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 236, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\raw\continente\20241113'
+2024-11-13 18:12:47,740 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: frescos
+2024-11-13 18:12:47,740 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: frescos
+2024-11-13 18:12:50,714 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category frescos: 3282
+2024-11-13 18:12:51,443 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 3282 products for category frescos
+2024-11-13 18:13:03,908 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 3282 products for category frescos
+2024-11-13 18:13:12,715 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 3282 products for category frescos
+2024-11-13 18:13:26,098 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 3282 products for category frescos
+2024-11-13 18:13:36,413 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 3282 products for category frescos
+2024-11-13 18:13:49,573 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 3282 products for category frescos
+2024-11-13 18:14:04,548 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 3282 products for category frescos
+2024-11-13 18:14:14,200 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 3282 products for category frescos
+2024-11-13 18:14:23,447 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 3282 products for category frescos
+2024-11-13 18:14:32,393 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 3282 products for category frescos
+2024-11-13 18:14:40,829 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 3282 products for category frescos
+2024-11-13 18:14:51,310 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 3282 products for category frescos
+2024-11-13 18:15:00,792 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 3282 products for category frescos
+2024-11-13 18:15:15,065 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 3282 products for category frescos
+2024-11-13 18:15:27,201 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 3282 products for category frescos
+2024-11-13 18:15:40,049 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3282 of 3282 products for category frescos
+2024-11-13 18:15:49,069 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category frescos. Total products: 576
+2024-11-13 18:15:49,071 - logger - ERROR - catalog.py:241 - process_and_save_categories - Error processing category frescos: Cannot save file into a non-existent directory: 'data\raw\continente\20241113\20241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 236, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\raw\continente\20241113\20241113'
+2024-11-13 18:15:49,074 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: mercearias
+2024-11-13 18:15:49,074 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: mercearias
+2024-11-13 18:15:52,249 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category mercearias: 5601
+2024-11-13 18:15:53,004 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 5601 products for category mercearias
+2024-11-13 18:16:06,610 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 5601 products for category mercearias
+2024-11-13 18:16:18,153 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 5601 products for category mercearias
+2024-11-13 18:16:26,856 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 5601 products for category mercearias
+2024-11-13 18:16:37,446 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 5601 products for category mercearias
+2024-11-13 18:16:50,499 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 5601 products for category mercearias
+2024-11-13 18:17:05,054 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 5601 products for category mercearias
+2024-11-13 18:17:14,497 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 5601 products for category mercearias
+2024-11-13 18:17:26,005 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 5601 products for category mercearias
+2024-11-13 18:17:35,644 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 5601 products for category mercearias
+2024-11-13 18:17:48,543 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 5601 products for category mercearias
+2024-11-13 18:17:59,181 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 5601 products for category mercearias
+2024-11-13 18:18:10,332 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 5601 products for category mercearias
+2024-11-13 18:18:18,414 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 5601 products for category mercearias
+2024-11-13 18:18:32,833 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 5601 products for category mercearias
+2024-11-13 18:18:43,674 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 5601 products for category mercearias
+2024-11-13 18:18:56,537 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 5601 products for category mercearias
+2024-11-13 18:19:05,484 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 5601 products for category mercearias
+2024-11-13 18:19:17,231 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 5601 products for category mercearias
+2024-11-13 18:19:26,261 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 5601 products for category mercearias
+2024-11-13 18:19:34,454 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 5601 products for category mercearias
+2024-11-13 18:19:42,907 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 5601 products for category mercearias
+2024-11-13 18:19:54,960 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4968 of 5601 products for category mercearias
+2024-11-13 18:20:04,011 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5184 of 5601 products for category mercearias
+2024-11-13 18:20:12,454 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5400 of 5601 products for category mercearias
+2024-11-13 18:20:25,082 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5601 of 5601 products for category mercearias
+2024-11-13 18:20:31,089 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category mercearias. Total products: 936
+2024-11-13 18:20:31,090 - logger - ERROR - catalog.py:241 - process_and_save_categories - Error processing category mercearias: Cannot save file into a non-existent directory: 'data\raw\continente\20241113\20241113\20241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 236, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\raw\continente\20241113\20241113\20241113'
+2024-11-13 18:20:31,093 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: bebidas
+2024-11-13 18:20:31,095 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: bebidas
+2024-11-13 18:20:32,678 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category bebidas: 5494
+2024-11-13 18:20:33,343 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 5494 products for category bebidas
+2024-11-13 18:20:45,447 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 5494 products for category bebidas
+2024-11-13 18:20:55,791 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 5494 products for category bebidas
+2024-11-13 18:21:17,733 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 5494 products for category bebidas
+2024-11-13 18:21:27,188 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 5494 products for category bebidas
+2024-11-13 18:21:35,332 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 5494 products for category bebidas
+2024-11-13 18:21:44,534 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 5494 products for category bebidas
+2024-11-13 18:21:56,713 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 5494 products for category bebidas
+2024-11-13 18:22:07,739 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 5494 products for category bebidas
+2024-11-13 18:22:16,949 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 5494 products for category bebidas
+2024-11-13 18:22:24,275 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 5494 products for category bebidas
+2024-11-13 18:22:32,717 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 5494 products for category bebidas
+2024-11-13 18:22:43,374 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 5494 products for category bebidas
+2024-11-13 18:22:52,825 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 5494 products for category bebidas
+2024-11-13 18:23:03,765 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 5494 products for category bebidas
+2024-11-13 18:23:13,392 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 5494 products for category bebidas
+2024-11-13 18:23:25,926 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 5494 products for category bebidas
+2024-11-13 18:23:36,372 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 5494 products for category bebidas
+2024-11-13 18:23:43,765 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 5494 products for category bebidas
+2024-11-13 18:23:56,818 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 5494 products for category bebidas
+2024-11-13 18:24:08,431 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 5494 products for category bebidas
+2024-11-13 18:24:18,822 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 5494 products for category bebidas
+2024-11-13 18:24:32,696 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4968 of 5494 products for category bebidas
+2024-11-13 18:27:21,961 - logger - INFO - catalog.py:202 - process_and_save_categories - Starting process_and_save_categories
+2024-11-13 18:27:22,467 - logger - INFO - catalog.py:213 - process_and_save_categories - Successfully hit the initial URL
+2024-11-13 18:28:06,096 - logger - INFO - catalog.py:202 - process_and_save_categories - Starting process_and_save_categories
+2024-11-13 18:28:06,629 - logger - INFO - catalog.py:213 - process_and_save_categories - Successfully hit the initial URL
+2024-11-13 18:28:06,630 - logger - INFO - catalog.py:230 - process_and_save_categories - Processing category: congelados
+2024-11-13 18:28:06,631 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: congelados
+2024-11-13 18:28:08,205 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category congelados: 966
+2024-11-13 18:28:08,871 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 966 products for category congelados
+2024-11-13 18:28:20,487 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 966 products for category congelados
+2024-11-13 18:28:31,001 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 966 products for category congelados
+2024-11-13 18:28:39,564 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 966 products for category congelados
+2024-11-13 18:28:46,685 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 966 of 966 products for category congelados
+2024-11-13 18:28:51,699 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category congelados. Total products: 180
+2024-11-13 18:28:51,705 - logger - ERROR - catalog.py:242 - process_and_save_categories - Error processing category congelados: Cannot save file into a non-existent directory: 'data\raw\continente\20241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 237, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\raw\continente\20241113'
+2024-11-13 18:28:51,712 - logger - INFO - catalog.py:230 - process_and_save_categories - Processing category: frescos
+2024-11-13 18:28:51,713 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: frescos
+2024-11-13 18:28:53,513 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category frescos: 3282
+2024-11-13 18:28:54,145 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 3282 products for category frescos
+2024-11-13 18:29:06,602 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 3282 products for category frescos
+2024-11-13 18:29:17,542 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 3282 products for category frescos
+2024-11-13 18:29:27,339 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 3282 products for category frescos
+2024-11-13 18:29:36,120 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 3282 products for category frescos
+2024-11-13 18:29:42,838 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 3282 products for category frescos
+2024-11-13 18:29:53,797 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 3282 products for category frescos
+2024-11-13 18:30:03,971 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 3282 products for category frescos
+2024-11-13 18:30:15,086 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 3282 products for category frescos
+2024-11-13 18:30:23,226 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 3282 products for category frescos
+2024-11-13 18:30:31,877 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 3282 products for category frescos
+2024-11-13 18:30:54,842 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 3282 products for category frescos
+2024-11-13 18:31:05,224 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 3282 products for category frescos
+2024-11-13 18:31:17,544 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 3282 products for category frescos
+2024-11-13 18:31:24,340 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 3282 products for category frescos
+2024-11-13 18:31:34,243 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3282 of 3282 products for category frescos
+2024-11-13 18:31:42,258 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category frescos. Total products: 576
+2024-11-13 18:31:42,261 - logger - ERROR - catalog.py:242 - process_and_save_categories - Error processing category frescos: Cannot save file into a non-existent directory: 'data\raw\continente\20241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 237, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\raw\continente\20241113'
+2024-11-13 18:31:42,267 - logger - INFO - catalog.py:230 - process_and_save_categories - Processing category: mercearias
+2024-11-13 18:31:42,268 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: mercearias
+2024-11-13 18:31:46,815 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category mercearias: 5601
+2024-11-13 18:31:47,448 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 5601 products for category mercearias
+2024-11-13 18:36:02,219 - logger - INFO - catalog.py:202 - process_and_save_categories - Starting process_and_save_categories
+2024-11-13 18:36:03,020 - logger - INFO - catalog.py:208 - process_and_save_categories - Successfully hit the initial URL
+2024-11-13 18:36:03,021 - logger - INFO - catalog.py:219 - process_and_save_categories - Directory 'data/raw/continente/20241113' created.
+2024-11-13 18:36:03,022 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: congelados
+2024-11-13 18:36:03,023 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: congelados
+2024-11-13 18:36:04,434 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category congelados: 966
+2024-11-13 18:36:05,143 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 966 products for category congelados
+2024-11-13 18:36:12,790 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 966 products for category congelados
+2024-11-13 18:36:21,462 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 966 products for category congelados
+2024-11-13 18:36:31,070 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 966 products for category congelados
+2024-11-13 18:36:38,171 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 966 of 966 products for category congelados
+2024-11-13 18:36:46,191 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category congelados. Total products: 180
+2024-11-13 18:36:54,671 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'congelados' to data/raw/continente/20241113\congelados.csv
+2024-11-13 18:36:54,672 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: frescos
+2024-11-13 18:36:54,673 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: frescos
+2024-11-13 18:39:17,287 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category frescos: 3282
+2024-11-13 18:39:17,920 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 3282 products for category frescos
+2024-11-13 18:39:25,583 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 3282 products for category frescos
+2024-11-13 18:39:32,287 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 3282 products for category frescos
+2024-11-13 18:39:43,837 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 3282 products for category frescos
+2024-11-13 18:39:52,809 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 3282 products for category frescos
+2024-11-13 18:40:01,437 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 3282 products for category frescos
+2024-11-13 18:40:09,465 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 3282 products for category frescos
+2024-11-13 18:40:17,369 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 3282 products for category frescos
+2024-11-13 18:40:28,057 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 3282 products for category frescos
+2024-11-13 18:40:36,940 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 3282 products for category frescos
+2024-11-13 18:40:45,835 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 3282 products for category frescos
+2024-11-13 18:40:57,460 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 3282 products for category frescos
+2024-11-13 18:41:04,164 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 3282 products for category frescos
+2024-11-13 18:41:13,601 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 3282 products for category frescos
+2024-11-13 18:41:24,366 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 3282 products for category frescos
+2024-11-13 18:41:33,985 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3282 of 3282 products for category frescos
+2024-11-13 18:41:38,995 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category frescos. Total products: 576
+2024-11-13 18:41:39,009 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'frescos' to data/raw/continente/20241113\frescos.csv
+2024-11-13 18:41:39,010 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: mercearias
+2024-11-13 18:41:39,010 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: mercearias
+2024-11-13 18:41:40,386 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category mercearias: 5601
+2024-11-13 18:41:40,970 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 5601 products for category mercearias
+2024-11-13 18:41:49,856 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 5601 products for category mercearias
+2024-11-13 18:42:00,977 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 5601 products for category mercearias
+2024-11-13 18:42:11,272 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 5601 products for category mercearias
+2024-11-13 18:42:22,335 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 5601 products for category mercearias
+2024-11-13 18:42:30,640 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 5601 products for category mercearias
+2024-11-13 18:42:45,399 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 5601 products for category mercearias
+2024-11-13 18:42:55,773 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 5601 products for category mercearias
+2024-11-13 18:43:05,418 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 5601 products for category mercearias
+2024-11-13 18:43:16,404 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 5601 products for category mercearias
+2024-11-13 18:43:25,296 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 5601 products for category mercearias
+2024-11-13 18:43:36,067 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 5601 products for category mercearias
+2024-11-13 18:43:45,795 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 5601 products for category mercearias
+2024-11-13 18:43:57,076 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 5601 products for category mercearias
+2024-11-13 18:44:03,958 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 5601 products for category mercearias
+2024-11-13 18:44:13,015 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 5601 products for category mercearias
+2024-11-13 18:44:24,027 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 5601 products for category mercearias
+2024-11-13 18:44:33,048 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 5601 products for category mercearias
+2024-11-13 18:44:44,031 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 5601 products for category mercearias
+2024-11-13 18:44:55,187 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 5601 products for category mercearias
+2024-11-13 18:45:05,421 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 5601 products for category mercearias
+2024-11-13 18:45:14,547 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 5601 products for category mercearias
+2024-11-13 18:45:26,463 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4968 of 5601 products for category mercearias
+2024-11-13 18:45:35,813 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5184 of 5601 products for category mercearias
+2024-11-13 18:45:44,995 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5400 of 5601 products for category mercearias
+2024-11-13 18:45:56,493 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5601 of 5601 products for category mercearias
+2024-11-13 18:46:03,504 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category mercearias. Total products: 936
+2024-11-13 18:46:03,517 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'mercearias' to data/raw/continente/20241113\mercearias.csv
+2024-11-13 18:46:03,518 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: bebidas
+2024-11-13 18:46:03,519 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: bebidas
+2024-11-13 18:46:05,765 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category bebidas: 5494
+2024-11-13 18:46:06,489 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 5494 products for category bebidas
+2024-11-13 18:46:14,547 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 5494 products for category bebidas
+2024-11-13 18:46:23,732 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 5494 products for category bebidas
+2024-11-13 18:46:34,620 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 5494 products for category bebidas
+2024-11-13 18:46:44,964 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 5494 products for category bebidas
+2024-11-13 18:46:55,045 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 5494 products for category bebidas
+2024-11-13 18:47:03,162 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 5494 products for category bebidas
+2024-11-13 18:47:13,528 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 5494 products for category bebidas
+2024-11-13 18:47:25,229 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 5494 products for category bebidas
+2024-11-13 18:47:36,708 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 5494 products for category bebidas
+2024-11-13 18:47:46,574 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 5494 products for category bebidas
+2024-11-13 18:47:59,576 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 5494 products for category bebidas
+2024-11-13 18:48:10,857 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 5494 products for category bebidas
+2024-11-13 18:48:22,777 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 5494 products for category bebidas
+2024-11-13 18:48:34,753 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 5494 products for category bebidas
+2024-11-13 18:48:47,916 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 5494 products for category bebidas
+2024-11-13 18:48:57,678 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 5494 products for category bebidas
+2024-11-13 18:49:11,781 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 5494 products for category bebidas
+2024-11-13 18:49:22,490 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 5494 products for category bebidas
+2024-11-13 18:49:29,619 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 5494 products for category bebidas
+2024-11-13 18:49:41,363 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 5494 products for category bebidas
+2024-11-13 18:49:57,537 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 5494 products for category bebidas
+2024-11-13 18:50:06,407 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4968 of 5494 products for category bebidas
+2024-11-13 18:50:16,143 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5184 of 5494 products for category bebidas
+2024-11-13 18:50:25,565 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5400 of 5494 products for category bebidas
+2024-11-13 18:50:49,529 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5494 of 5494 products for category bebidas
+2024-11-13 18:50:54,547 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category bebidas. Total products: 936
+2024-11-13 18:50:54,569 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'bebidas' to data/raw/continente/20241113\bebidas.csv
+2024-11-13 18:50:54,570 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: biologicos
+2024-11-13 18:50:54,571 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: biologicos
+2024-11-13 18:50:56,278 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category biologicos: 2429
+2024-11-13 18:50:56,994 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 2429 products for category biologicos
+2024-11-13 18:51:04,750 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 2429 products for category biologicos
+2024-11-13 18:51:15,520 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 2429 products for category biologicos
+2024-11-13 18:51:28,980 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 2429 products for category biologicos
+2024-11-13 18:51:40,961 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 2429 products for category biologicos
+2024-11-13 18:51:51,797 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 2429 products for category biologicos
+2024-11-13 18:52:17,001 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 2429 products for category biologicos
+2024-11-13 18:52:23,973 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 2429 products for category biologicos
+2024-11-13 18:52:35,114 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 2429 products for category biologicos
+2024-11-13 18:52:46,181 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 2429 products for category biologicos
+2024-11-13 18:52:56,646 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 2429 products for category biologicos
+2024-11-13 18:55:38,244 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2429 of 2429 products for category biologicos
+2024-11-13 18:55:47,264 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category biologicos. Total products: 432
+2024-11-13 18:55:47,277 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'biologicos' to data/raw/continente/20241113\biologicos.csv
+2024-11-13 18:55:47,278 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: limpeza
+2024-11-13 18:55:47,279 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: limpeza
+2024-11-13 18:55:49,721 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category limpeza: 2015
+2024-11-13 18:55:50,513 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 2015 products for category limpeza
+2024-11-13 18:55:57,426 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 2015 products for category limpeza
+2024-11-13 18:56:07,781 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 2015 products for category limpeza
+2024-11-13 18:56:18,370 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 2015 products for category limpeza
+2024-11-13 18:56:30,755 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 2015 products for category limpeza
+2024-11-13 18:56:38,915 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 2015 products for category limpeza
+2024-11-13 18:56:49,883 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 2015 products for category limpeza
+2024-11-13 18:56:59,531 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 2015 products for category limpeza
+2024-11-13 18:57:11,999 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 2015 products for category limpeza
+2024-11-13 18:57:24,146 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2015 of 2015 products for category limpeza
+2024-11-13 18:57:33,161 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category limpeza. Total products: 360
+2024-11-13 18:57:33,167 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'limpeza' to data/raw/continente/20241113\limpeza.csv
+2024-11-13 18:57:33,168 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: higiene-beleza
+2024-11-13 18:57:33,168 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: higiene-beleza
+2024-11-13 18:57:35,022 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category higiene-beleza: 4863
+2024-11-13 18:57:35,783 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 4863 products for category higiene-beleza
+2024-11-13 18:57:47,073 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 4863 products for category higiene-beleza
+2024-11-13 18:57:54,273 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 4863 products for category higiene-beleza
+2024-11-13 18:58:02,195 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 4863 products for category higiene-beleza
+2024-11-13 18:58:10,519 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 4863 products for category higiene-beleza
+2024-11-13 18:58:20,879 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 4863 products for category higiene-beleza
+2024-11-13 18:58:28,377 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 4863 products for category higiene-beleza
+2024-11-13 18:58:37,693 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 4863 products for category higiene-beleza
+2024-11-13 18:58:50,108 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 4863 products for category higiene-beleza
+2024-11-13 18:58:58,992 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 4863 products for category higiene-beleza
+2024-11-13 18:59:09,471 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 4863 products for category higiene-beleza
+2024-11-13 18:59:19,355 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 4863 products for category higiene-beleza
+2024-11-13 18:59:31,850 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 4863 products for category higiene-beleza
+2024-11-13 18:59:42,750 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 4863 products for category higiene-beleza
+2024-11-13 19:00:11,086 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 4863 products for category higiene-beleza
+2024-11-13 19:00:22,481 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 4863 products for category higiene-beleza
+2024-11-13 19:00:29,810 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 4863 products for category higiene-beleza
+2024-11-13 19:00:37,367 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 4863 products for category higiene-beleza
+2024-11-13 19:00:45,946 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 4863 products for category higiene-beleza
+2024-11-13 19:00:58,357 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 4863 products for category higiene-beleza
+2024-11-13 19:01:09,623 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 4863 products for category higiene-beleza
+2024-11-13 19:01:17,689 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 4863 products for category higiene-beleza
+2024-11-13 19:01:27,245 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4863 of 4863 products for category higiene-beleza
+2024-11-13 19:01:32,263 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category higiene-beleza. Total products: 828
+2024-11-13 19:01:32,276 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'higiene-beleza' to data/raw/continente/20241113\higiene-beleza.csv
+2024-11-13 19:01:32,277 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: bebe
+2024-11-13 19:01:32,278 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: bebe
+2024-11-13 19:01:35,322 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category bebe: 1586
+2024-11-13 19:01:36,035 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 1586 products for category bebe
+2024-11-13 19:01:46,723 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 1586 products for category bebe
+2024-11-13 19:01:55,837 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 1586 products for category bebe
+2024-11-13 19:02:05,329 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 1586 products for category bebe
+2024-11-13 19:02:15,506 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 1586 products for category bebe
+2024-11-13 19:02:27,869 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 1586 products for category bebe
+2024-11-13 19:02:41,048 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 1586 products for category bebe
+2024-11-13 19:02:51,998 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1586 of 1586 products for category bebe
+2024-11-13 19:02:58,008 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category bebe. Total products: 288
+2024-11-13 19:02:58,014 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'bebe' to data/raw/continente/20241113\bebe.csv
+2024-11-13 19:02:58,015 - logger - INFO - catalog.py:243 - process_and_save_categories - Completed process_and_save_categories
+2024-11-14 16:57:01,711 - logger - INFO - catalog.py:202 - process_and_save_categories - Starting process_and_save_categories
+2024-11-14 16:57:01,714 - logger - INFO - pingo_doce.py:196 - parse_and_save_all_categories - Starting to parse and save data for 7 categories

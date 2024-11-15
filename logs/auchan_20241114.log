@@ -1,0 +1,411 @@
+2024-11-14 16:57:01,716 - logger - INFO - auchan.py:259 - save_data_for_all_cgids - Starting data fetch process for 6 cgids
+2024-11-14 16:57:01,718 - logger - INFO - auchan.py:264 - save_data_for_all_cgids - Directory 'data/auchan' created.
+2024-11-14 16:57:01,718 - logger - INFO - auchan.py:269 - save_data_for_all_cgids - Data will be saved in 'data/auchan\20241114'
+2024-11-14 16:57:01,719 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: alimentacao-
+2024-11-14 16:57:01,725 - logger - INFO - pingo_doce.py:202 - parse_and_save_all_categories - Created directory: data/raw/pingo_doce/20241114
+2024-11-14 16:57:01,726 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-lacticinios
+2024-11-14 16:57:01,727 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-lacticinios
+2024-11-14 16:57:05,385 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-14 16:57:05,605 - logger - INFO - catalog.py:208 - process_and_save_categories - Successfully hit the initial URL
+2024-11-14 16:57:05,631 - logger - INFO - catalog.py:219 - process_and_save_categories - Directory 'data/continente/20241114' created.
+2024-11-14 16:57:05,632 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: congelados
+2024-11-14 16:57:05,657 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: congelados
+2024-11-14 16:57:06,740 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 10 pages for category pingo-doce-lacticinios
+2024-11-14 16:57:07,626 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-lacticinios. Total products so far: 24
+2024-11-14 16:57:10,468 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category congelados: 965
+2024-11-14 16:57:11,059 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 965 products for category congelados
+2024-11-14 16:57:12,568 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-14 16:57:13,932 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-lacticinios. Total products so far: 48
+2024-11-14 16:57:19,053 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 965 products for category congelados
+2024-11-14 16:57:20,343 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-lacticinios. Total products so far: 72
+2024-11-14 16:57:26,690 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-lacticinios. Total products so far: 96
+2024-11-14 16:57:29,916 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 965 products for category congelados
+2024-11-14 16:57:32,137 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-lacticinios. Total products so far: 120
+2024-11-14 16:57:32,147 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-14 16:57:37,744 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 6 for category pingo-doce-lacticinios. Total products so far: 144
+2024-11-14 16:57:41,738 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 965 products for category congelados
+2024-11-14 16:57:44,307 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 7 for category pingo-doce-lacticinios. Total products so far: 168
+2024-11-14 16:57:50,295 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 8 for category pingo-doce-lacticinios. Total products so far: 192
+2024-11-14 16:57:50,878 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 965 of 965 products for category congelados
+2024-11-14 16:57:51,369 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-14 16:57:55,868 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 9 for category pingo-doce-lacticinios. Total products so far: 216
+2024-11-14 16:57:57,887 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category congelados. Total products: 180
+2024-11-14 16:57:57,921 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'congelados' to data/continente/20241114\congelados.csv
+2024-11-14 16:57:57,921 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: frescos
+2024-11-14 16:57:57,923 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: frescos
+2024-11-14 16:57:59,728 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category frescos: 3305
+2024-11-14 16:58:00,355 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 3305 products for category frescos
+2024-11-14 16:58:01,893 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 10 for category pingo-doce-lacticinios. Total products so far: 222
+2024-11-14 16:58:04,907 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-lacticinios. Total products: 222
+2024-11-14 16:58:04,912 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-lacticinios' to 'data/raw/pingo_doce/20241114\pingo-doce-lacticinios.csv'. Total products: 222
+2024-11-14 16:58:04,913 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-bebidas
+2024-11-14 16:58:04,914 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-bebidas
+2024-11-14 16:58:07,008 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 5 pages for category pingo-doce-bebidas
+2024-11-14 16:58:07,315 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-bebidas. Total products so far: 24
+2024-11-14 16:58:12,283 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 3305 products for category frescos
+2024-11-14 16:58:12,874 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-bebidas. Total products so far: 48
+2024-11-14 16:58:14,918 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-14 16:58:18,080 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-bebidas. Total products so far: 72
+2024-11-14 16:58:22,173 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 3305 products for category frescos
+2024-11-14 16:58:23,801 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-bebidas. Total products so far: 96
+2024-11-14 16:58:29,217 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-bebidas. Total products so far: 117
+2024-11-14 16:58:32,053 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 3305 products for category frescos
+2024-11-14 16:58:32,227 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-bebidas. Total products: 117
+2024-11-14 16:58:32,232 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-bebidas' to 'data/raw/pingo_doce/20241114\pingo-doce-bebidas.csv'. Total products: 117
+2024-11-14 16:58:32,233 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-frescos-embalados
+2024-11-14 16:58:32,234 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-frescos-embalados
+2024-11-14 16:58:34,653 - logger - WARNING - pingo_doce.py:166 - parse_all_pages_for_category - Could not determine last page for category pingo-doce-frescos-embalados. Assuming only 1 page.
+2024-11-14 16:58:35,185 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-frescos-embalados. Total products so far: 18
+2024-11-14 16:58:35,760 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-14 16:58:38,245 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-frescos-embalados. Total products: 18
+2024-11-14 16:58:38,387 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-frescos-embalados' to 'data/raw/pingo_doce/20241114\pingo-doce-frescos-embalados.csv'. Total products: 18
+2024-11-14 16:58:38,467 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-higiene-e-beleza
+2024-11-14 16:58:38,515 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-higiene-e-beleza
+2024-11-14 16:58:40,797 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 6 pages for category pingo-doce-higiene-e-beleza
+2024-11-14 16:58:41,574 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-higiene-e-beleza. Total products so far: 24
+2024-11-14 16:58:42,128 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 3305 products for category frescos
+2024-11-14 16:58:46,899 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-higiene-e-beleza. Total products so far: 48
+2024-11-14 16:58:51,677 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-higiene-e-beleza. Total products so far: 72
+2024-11-14 16:58:56,789 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-higiene-e-beleza. Total products so far: 96
+2024-11-14 16:58:59,116 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-14 16:59:02,860 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-higiene-e-beleza. Total products so far: 120
+2024-11-14 16:59:07,501 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 6 for category pingo-doce-higiene-e-beleza. Total products so far: 132
+2024-11-14 16:59:10,518 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-higiene-e-beleza. Total products: 132
+2024-11-14 16:59:10,521 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-higiene-e-beleza' to 'data/raw/pingo_doce/20241114\pingo-doce-higiene-e-beleza.csv'. Total products: 132
+2024-11-14 16:59:10,522 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-maquinas-e-capsulas-de-cafe
+2024-11-14 16:59:10,522 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-maquinas-e-capsulas-de-cafe
+2024-11-14 16:59:12,276 - logger - WARNING - pingo_doce.py:166 - parse_all_pages_for_category - Could not determine last page for category pingo-doce-maquinas-e-capsulas-de-cafe. Assuming only 1 page.
+2024-11-14 16:59:12,656 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-maquinas-e-capsulas-de-cafe. Total products so far: 22
+2024-11-14 16:59:15,667 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-maquinas-e-capsulas-de-cafe. Total products: 22
+2024-11-14 16:59:15,670 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-maquinas-e-capsulas-de-cafe' to 'data/raw/pingo_doce/20241114\pingo-doce-maquinas-e-capsulas-de-cafe.csv'. Total products: 22
+2024-11-14 16:59:15,671 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-mercearia
+2024-11-14 16:59:15,671 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-mercearia
+2024-11-14 16:59:17,516 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 29 pages for category pingo-doce-mercearia
+2024-11-14 16:59:17,949 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-mercearia. Total products so far: 24
+2024-11-14 16:59:23,312 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-mercearia. Total products so far: 48
+2024-11-14 16:59:23,687 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-14 16:59:28,492 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 3 for category pingo-doce-mercearia. Total products so far: 72
+2024-11-14 16:59:33,473 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 4 for category pingo-doce-mercearia. Total products so far: 96
+2024-11-14 16:59:38,831 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 5 for category pingo-doce-mercearia. Total products so far: 120
+2024-11-14 16:59:44,171 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 6 for category pingo-doce-mercearia. Total products so far: 144
+2024-11-14 16:59:44,817 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-14 16:59:47,833 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 3305 products for category frescos
+2024-11-14 16:59:50,587 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 7 for category pingo-doce-mercearia. Total products so far: 168
+2024-11-14 16:59:55,737 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 8 for category pingo-doce-mercearia. Total products so far: 192
+2024-11-14 16:59:57,108 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 3305 products for category frescos
+2024-11-14 17:00:02,635 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 9 for category pingo-doce-mercearia. Total products so far: 216
+2024-11-14 17:00:07,896 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 3305 products for category frescos
+2024-11-14 17:00:08,307 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-14 17:00:08,330 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 10 for category pingo-doce-mercearia. Total products so far: 240
+2024-11-14 17:00:13,863 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 11 for category pingo-doce-mercearia. Total products so far: 264
+2024-11-14 17:00:19,199 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 12 for category pingo-doce-mercearia. Total products so far: 288
+2024-11-14 17:00:19,690 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 3305 products for category frescos
+2024-11-14 17:00:24,869 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 13 for category pingo-doce-mercearia. Total products so far: 312
+2024-11-14 17:00:28,134 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-14 17:00:31,105 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 14 for category pingo-doce-mercearia. Total products so far: 336
+2024-11-14 17:00:32,274 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 3305 products for category frescos
+2024-11-14 17:00:36,251 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 15 for category pingo-doce-mercearia. Total products so far: 360
+2024-11-14 17:00:41,883 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 16 for category pingo-doce-mercearia. Total products so far: 384
+2024-11-14 17:00:44,285 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 3305 products for category frescos
+2024-11-14 17:00:47,361 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 17 for category pingo-doce-mercearia. Total products so far: 408
+2024-11-14 17:00:48,614 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2332&sz=212&next=true
+2024-11-14 17:00:53,232 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 18 for category pingo-doce-mercearia. Total products so far: 432
+2024-11-14 17:00:56,408 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 3305 products for category frescos
+2024-11-14 17:00:58,559 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 19 for category pingo-doce-mercearia. Total products so far: 456
+2024-11-14 17:01:04,246 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 20 for category pingo-doce-mercearia. Total products so far: 480
+2024-11-14 17:01:07,211 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 3305 products for category frescos
+2024-11-14 17:01:10,076 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 21 for category pingo-doce-mercearia. Total products so far: 504
+2024-11-14 17:01:11,666 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2544&sz=212&next=true
+2024-11-14 17:01:15,055 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 22 for category pingo-doce-mercearia. Total products so far: 528
+2024-11-14 17:01:16,568 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 3305 products for category frescos
+2024-11-14 17:01:20,487 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 23 for category pingo-doce-mercearia. Total products so far: 552
+2024-11-14 17:01:25,182 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 3305 products for category frescos
+2024-11-14 17:01:26,102 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 24 for category pingo-doce-mercearia. Total products so far: 576
+2024-11-14 17:01:31,642 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 25 for category pingo-doce-mercearia. Total products so far: 600
+2024-11-14 17:01:34,197 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2756&sz=212&next=true
+2024-11-14 17:01:37,145 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 26 for category pingo-doce-mercearia. Total products so far: 624
+2024-11-14 17:01:38,049 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3305 of 3305 products for category frescos
+2024-11-14 17:01:42,223 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 27 for category pingo-doce-mercearia. Total products so far: 648
+2024-11-14 17:01:46,136 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category frescos. Total products: 576
+2024-11-14 17:01:46,143 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'frescos' to data/continente/20241114\frescos.csv
+2024-11-14 17:01:46,144 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: mercearias
+2024-11-14 17:01:46,144 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: mercearias
+2024-11-14 17:01:47,401 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 28 for category pingo-doce-mercearia. Total products so far: 672
+2024-11-14 17:01:48,396 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category mercearias: 5609
+2024-11-14 17:01:49,008 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 5609 products for category mercearias
+2024-11-14 17:01:52,952 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 29 for category pingo-doce-mercearia. Total products so far: 692
+2024-11-14 17:01:55,961 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-mercearia. Total products: 692
+2024-11-14 17:01:55,976 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-mercearia' to 'data/raw/pingo_doce/20241114\pingo-doce-mercearia.csv'. Total products: 692
+2024-11-14 17:01:55,977 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-refeicoes-prontas
+2024-11-14 17:01:55,979 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-refeicoes-prontas
+2024-11-14 17:01:57,893 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2968&sz=212&next=true
+2024-11-14 17:01:58,456 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 2 pages for category pingo-doce-refeicoes-prontas
+2024-11-14 17:02:00,010 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 1 for category pingo-doce-refeicoes-prontas. Total products so far: 24
+2024-11-14 17:02:00,364 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 5609 products for category mercearias
+2024-11-14 17:02:05,081 - logger - INFO - pingo_doce.py:178 - parse_all_pages_for_category - Successfully parsed page 2 for category pingo-doce-refeicoes-prontas. Total products so far: 27
+2024-11-14 17:02:08,090 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-refeicoes-prontas. Total products: 27
+2024-11-14 17:02:08,099 - logger - INFO - pingo_doce.py:213 - parse_and_save_all_categories - Saved data for category 'pingo-doce-refeicoes-prontas' to 'data/raw/pingo_doce/20241114\pingo-doce-refeicoes-prontas.csv'. Total products: 27
+2024-11-14 17:02:08,100 - logger - INFO - pingo_doce.py:219 - parse_and_save_all_categories - Completed parsing and saving data for all categories
+2024-11-14 17:02:09,463 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 5609 products for category mercearias
+2024-11-14 17:02:16,588 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 5609 products for category mercearias
+2024-11-14 17:02:18,440 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true
+2024-11-14 17:02:25,445 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 5609 products for category mercearias
+2024-11-14 17:02:34,656 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 5609 products for category mercearias
+2024-11-14 17:02:39,624 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3392&sz=212&next=true
+2024-11-14 17:02:46,932 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 5609 products for category mercearias
+2024-11-14 17:02:53,940 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 5609 products for category mercearias
+2024-11-14 17:03:01,916 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3604&sz=212&next=true
+2024-11-14 17:03:06,442 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 5609 products for category mercearias
+2024-11-14 17:03:15,652 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 5609 products for category mercearias
+2024-11-14 17:03:21,738 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3816&sz=212&next=true
+2024-11-14 17:03:25,676 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 5609 products for category mercearias
+2024-11-14 17:03:32,932 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 5609 products for category mercearias
+2024-11-14 17:03:42,500 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4028&sz=212&next=true
+2024-11-14 17:03:46,111 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 5609 products for category mercearias
+2024-11-14 17:03:57,859 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 5609 products for category mercearias
+2024-11-14 17:04:03,246 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4240&sz=212&next=true
+2024-11-14 17:04:08,827 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 5609 products for category mercearias
+2024-11-14 17:04:20,743 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 5609 products for category mercearias
+2024-11-14 17:04:22,357 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4452&sz=212&next=true
+2024-11-14 17:04:30,357 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 5609 products for category mercearias
+2024-11-14 17:04:40,666 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 5609 products for category mercearias
+2024-11-14 17:04:44,964 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4664&sz=212&next=true
+2024-11-14 17:04:50,245 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 5609 products for category mercearias
+2024-11-14 17:05:03,101 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 5609 products for category mercearias
+2024-11-14 17:05:04,727 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4876&sz=212&next=true
+2024-11-14 17:05:13,154 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 5609 products for category mercearias
+2024-11-14 17:05:24,816 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 5609 products for category mercearias
+2024-11-14 17:05:24,826 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5088&sz=212&next=true
+2024-11-14 17:05:35,824 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4968 of 5609 products for category mercearias
+2024-11-14 17:05:45,106 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5184 of 5609 products for category mercearias
+2024-11-14 17:05:45,790 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5300&sz=212&next=true
+2024-11-14 17:05:54,460 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5400 of 5609 products for category mercearias
+2024-11-14 17:06:04,684 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5512&sz=212&next=true
+2024-11-14 17:06:08,823 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5609 of 5609 products for category mercearias
+2024-11-14 17:06:15,902 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category mercearias. Total products: 936
+2024-11-14 17:06:15,922 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'mercearias' to data/continente/20241114\mercearias.csv
+2024-11-14 17:06:15,923 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: bebidas
+2024-11-14 17:06:15,924 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: bebidas
+2024-11-14 17:06:17,821 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category bebidas: 5394
+2024-11-14 17:06:18,372 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 5394 products for category bebidas
+2024-11-14 17:06:26,567 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 5394 products for category bebidas
+2024-11-14 17:06:26,673 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5724&sz=212&next=true
+2024-11-14 17:06:35,549 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 5394 products for category bebidas
+2024-11-14 17:06:42,594 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 5394 products for category bebidas
+2024-11-14 17:06:46,378 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5936&sz=212&next=true
+2024-11-14 17:06:52,216 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 5394 products for category bebidas
+2024-11-14 17:07:05,684 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 5394 products for category bebidas
+2024-11-14 17:07:08,331 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6148&sz=212&next=true
+2024-11-14 17:07:17,927 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 5394 products for category bebidas
+2024-11-14 17:07:28,688 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 5394 products for category bebidas
+2024-11-14 17:07:28,696 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6360&sz=212&next=true
+2024-11-14 17:07:48,440 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6572&sz=212&next=true
+2024-11-14 17:08:00,288 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 5394 products for category bebidas
+2024-11-14 17:08:08,845 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6784&sz=212&next=true
+2024-11-14 17:08:12,043 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 5394 products for category bebidas
+2024-11-14 17:08:24,531 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 5394 products for category bebidas
+2024-11-14 17:08:36,003 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 5394 products for category bebidas
+2024-11-14 17:08:36,011 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6996&sz=212&next=true
+2024-11-14 17:08:48,646 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 5394 products for category bebidas
+2024-11-14 17:08:56,438 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 5394 products for category bebidas
+2024-11-14 17:08:56,447 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7208&sz=212&next=true
+2024-11-14 17:09:03,667 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 5394 products for category bebidas
+2024-11-14 17:09:11,176 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 5394 products for category bebidas
+2024-11-14 17:09:19,401 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7420&sz=212&next=true
+2024-11-14 17:09:24,632 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 5394 products for category bebidas
+2024-11-14 17:09:32,156 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 5394 products for category bebidas
+2024-11-14 17:09:40,749 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7632&sz=212&next=true
+2024-11-14 17:09:43,916 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 5394 products for category bebidas
+2024-11-14 17:09:52,568 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 5394 products for category bebidas
+2024-11-14 17:10:01,208 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 5394 products for category bebidas
+2024-11-14 17:10:05,297 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7844&sz=212&next=true
+2024-11-14 17:10:07,770 - logger - ERROR - auchan.py:216 - get_and_parse_auchan_data - Error fetching data for URL https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7844&sz=212&next=true: 'NoneType' object is not subscriptable
+2024-11-14 17:10:07,968 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for alimentacao- saved to data/auchan\20241114\alimentacao-_20241114.csv
+2024-11-14 17:10:07,968 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: biologico-e-escolhas-alimentares
+2024-11-14 17:10:09,145 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 5394 products for category bebidas
+2024-11-14 17:10:21,024 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4968 of 5394 products for category bebidas
+2024-11-14 17:10:24,454 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-14 17:10:32,283 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5184 of 5394 products for category bebidas
+2024-11-14 17:10:44,262 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5394 of 5394 products for category bebidas
+2024-11-14 17:10:46,239 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-14 17:10:51,271 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category bebidas. Total products: 900
+2024-11-14 17:10:51,290 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'bebidas' to data/continente/20241114\bebidas.csv
+2024-11-14 17:10:51,291 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: biologicos
+2024-11-14 17:10:51,291 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: biologicos
+2024-11-14 17:10:53,225 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category biologicos: 2435
+2024-11-14 17:10:53,927 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 2435 products for category biologicos
+2024-11-14 17:11:09,424 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 2435 products for category biologicos
+2024-11-14 17:11:10,102 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-14 17:11:22,125 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 2435 products for category biologicos
+2024-11-14 17:11:30,453 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 2435 products for category biologicos
+2024-11-14 17:11:35,787 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-14 17:11:42,406 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 2435 products for category biologicos
+2024-11-14 17:11:55,342 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 2435 products for category biologicos
+2024-11-14 17:11:58,035 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-14 17:12:08,576 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 2435 products for category biologicos
+2024-11-14 17:12:18,926 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-14 17:12:23,397 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 2435 products for category biologicos
+2024-11-14 17:12:33,134 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 2435 products for category biologicos
+2024-11-14 17:12:40,633 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-14 17:12:42,420 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 2435 products for category biologicos
+2024-11-14 17:12:50,688 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 2435 products for category biologicos
+2024-11-14 17:13:02,394 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2435 of 2435 products for category biologicos
+2024-11-14 17:13:03,371 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-14 17:13:12,569 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category biologicos. Total products: 432
+2024-11-14 17:13:12,578 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'biologicos' to data/continente/20241114\biologicos.csv
+2024-11-14 17:13:12,579 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: limpeza
+2024-11-14 17:13:12,579 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: limpeza
+2024-11-14 17:13:14,813 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category limpeza: 2010
+2024-11-14 17:13:15,435 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 2010 products for category limpeza
+2024-11-14 17:13:23,844 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 2010 products for category limpeza
+2024-11-14 17:13:24,697 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-14 17:13:33,137 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 2010 products for category limpeza
+2024-11-14 17:13:41,331 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 2010 products for category limpeza
+2024-11-14 17:13:45,931 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-14 17:13:52,013 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 2010 products for category limpeza
+2024-11-14 17:13:59,394 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-14 17:14:01,705 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 2010 products for category limpeza
+2024-11-14 17:14:05,322 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for biologico-e-escolhas-alimentares saved to data/auchan\20241114\biologico-e-escolhas-alimentares_20241114.csv
+2024-11-14 17:14:05,323 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: limpeza-da-casa-e-roupa
+2024-11-14 17:14:13,416 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 2010 products for category limpeza
+2024-11-14 17:14:17,558 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-14 17:14:23,020 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 2010 products for category limpeza
+2024-11-14 17:14:31,278 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 2010 products for category limpeza
+2024-11-14 17:14:36,338 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-14 17:14:41,703 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2010 of 2010 products for category limpeza
+2024-11-14 17:14:49,725 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category limpeza. Total products: 360
+2024-11-14 17:14:49,733 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'limpeza' to data/continente/20241114\limpeza.csv
+2024-11-14 17:14:49,734 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: higiene-beleza
+2024-11-14 17:14:49,736 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: higiene-beleza
+2024-11-14 17:14:51,337 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category higiene-beleza: 4863
+2024-11-14 17:14:51,982 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 4863 products for category higiene-beleza
+2024-11-14 17:14:56,614 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-14 17:15:05,702 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 4863 products for category higiene-beleza
+2024-11-14 17:15:17,505 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-14 17:15:38,451 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 4863 products for category higiene-beleza
+2024-11-14 17:15:38,461 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-14 17:15:49,171 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 4863 products for category higiene-beleza
+2024-11-14 17:15:57,923 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-14 17:16:02,375 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 4863 products for category higiene-beleza
+2024-11-14 17:16:14,398 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 4863 products for category higiene-beleza
+2024-11-14 17:16:18,957 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-14 17:16:26,625 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 4863 products for category higiene-beleza
+2024-11-14 17:16:37,595 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 4863 products for category higiene-beleza
+2024-11-14 17:16:38,522 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-14 17:16:47,210 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 4863 products for category higiene-beleza
+2024-11-14 17:16:58,156 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-14 17:16:59,270 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 4863 products for category higiene-beleza
+2024-11-14 17:17:00,980 - logger - ERROR - auchan.py:216 - get_and_parse_auchan_data - Error fetching data for URL https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true: 'NoneType' object is not subscriptable
+2024-11-14 17:17:01,030 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for limpeza-da-casa-e-roupa saved to data/auchan\20241114\limpeza-da-casa-e-roupa_20241114.csv
+2024-11-14 17:17:01,031 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: bebidas-e-garrafeira
+2024-11-14 17:17:07,275 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 4863 products for category higiene-beleza
+2024-11-14 17:17:09,331 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-14 17:17:19,603 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 4863 products for category higiene-beleza
+2024-11-14 17:17:30,431 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-14 17:17:39,517 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 4863 products for category higiene-beleza
+2024-11-14 17:17:47,283 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 4863 products for category higiene-beleza
+2024-11-14 17:17:51,571 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-14 17:18:01,216 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 4863 products for category higiene-beleza
+2024-11-14 17:18:08,709 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 4863 products for category higiene-beleza
+2024-11-14 17:18:11,487 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-14 17:18:21,294 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 4863 products for category higiene-beleza
+2024-11-14 17:18:31,870 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 4863 products for category higiene-beleza
+2024-11-14 17:18:34,335 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-14 17:18:44,886 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 4863 products for category higiene-beleza
+2024-11-14 17:18:53,321 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 4863 products for category higiene-beleza
+2024-11-14 17:18:54,839 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-14 17:19:00,737 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 4863 products for category higiene-beleza
+2024-11-14 17:19:10,092 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 4863 products for category higiene-beleza
+2024-11-14 17:19:15,692 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-14 17:19:20,243 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4863 of 4863 products for category higiene-beleza
+2024-11-14 17:19:29,259 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category higiene-beleza. Total products: 828
+2024-11-14 17:19:29,274 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'higiene-beleza' to data/continente/20241114\higiene-beleza.csv
+2024-11-14 17:19:29,274 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: bebe
+2024-11-14 17:19:29,275 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: bebe
+2024-11-14 17:19:30,764 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category bebe: 1655
+2024-11-14 17:19:31,374 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 1655 products for category bebe
+2024-11-14 17:19:38,553 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 1655 products for category bebe
+2024-11-14 17:19:38,560 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-14 17:19:51,429 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 1655 products for category bebe
+2024-11-14 17:19:58,374 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-14 17:20:06,876 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 1655 products for category bebe
+2024-11-14 17:20:16,704 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 1655 products for category bebe
+2024-11-14 17:20:21,323 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-14 17:20:26,440 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 1655 products for category bebe
+2024-11-14 17:20:38,057 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 1655 products for category bebe
+2024-11-14 17:20:43,959 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-14 17:20:49,143 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1655 of 1655 products for category bebe
+2024-11-14 17:20:58,190 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category bebe. Total products: 288
+2024-11-14 17:20:58,196 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'bebe' to data/continente/20241114\bebe.csv
+2024-11-14 17:20:58,197 - logger - INFO - catalog.py:243 - process_and_save_categories - Completed process_and_save_categories
+2024-11-14 17:21:05,398 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2332&sz=212&next=true
+2024-11-14 17:21:26,537 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2544&sz=212&next=true
+2024-11-14 17:21:48,350 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2756&sz=212&next=true
+2024-11-14 17:22:09,279 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2968&sz=212&next=true
+2024-11-14 17:22:32,419 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true
+2024-11-14 17:22:34,750 - logger - ERROR - auchan.py:216 - get_and_parse_auchan_data - Error fetching data for URL https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true: 'NoneType' object is not subscriptable
+2024-11-14 17:22:34,842 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for bebidas-e-garrafeira saved to data/auchan\20241114\bebidas-e-garrafeira_20241114.csv
+2024-11-14 17:22:34,843 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: marcas-auchan
+2024-11-14 17:22:47,969 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-14 17:23:07,837 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-14 17:23:30,285 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-14 17:23:52,381 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-14 17:24:12,249 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-14 17:24:32,110 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-14 17:24:53,501 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-14 17:25:13,447 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-14 17:25:37,411 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-14 17:25:57,964 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-14 17:26:18,038 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-14 17:26:38,134 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2332&sz=212&next=true
+2024-11-14 17:26:59,687 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2544&sz=212&next=true
+2024-11-14 17:27:22,510 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2756&sz=212&next=true
+2024-11-14 17:27:46,254 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2968&sz=212&next=true
+2024-11-14 17:28:06,568 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true
+2024-11-14 17:28:28,261 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3392&sz=212&next=true
+2024-11-14 17:28:49,040 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3604&sz=212&next=true
+2024-11-14 17:29:08,871 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3816&sz=212&next=true
+2024-11-14 17:29:31,131 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4028&sz=212&next=true
+2024-11-14 17:29:50,122 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4240&sz=212&next=true
+2024-11-14 17:30:09,525 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4452&sz=212&next=true
+2024-11-14 17:30:28,798 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4664&sz=212&next=true
+2024-11-14 17:30:49,414 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4876&sz=212&next=true
+2024-11-14 17:31:08,923 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5088&sz=212&next=true
+2024-11-14 17:31:27,986 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5300&sz=212&next=true
+2024-11-14 17:31:47,130 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5512&sz=212&next=true
+2024-11-14 17:32:06,368 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5724&sz=212&next=true
+2024-11-14 17:32:29,717 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5936&sz=212&next=true
+2024-11-14 17:32:49,994 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6148&sz=212&next=true
+2024-11-14 17:33:09,039 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6360&sz=212&next=true
+2024-11-14 17:33:28,908 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6572&sz=212&next=true
+2024-11-14 17:33:48,381 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6784&sz=212&next=true
+2024-11-14 17:34:09,357 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6996&sz=212&next=true
+2024-11-14 17:34:31,410 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7208&sz=212&next=true
+2024-11-14 17:34:51,483 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7420&sz=212&next=true
+2024-11-14 17:35:16,431 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7632&sz=212&next=true
+2024-11-14 17:35:37,120 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7844&sz=212&next=true
+2024-11-14 17:35:57,901 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=8056&sz=212&next=true
+2024-11-14 17:36:19,611 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=8268&sz=212&next=true
+2024-11-14 17:36:32,578 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=8480&sz=212&next=true
+2024-11-14 17:36:37,118 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for marcas-auchan saved to data/auchan\20241114\marcas-auchan_20241114.csv
+2024-11-14 17:36:37,119 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: saude-e-bem-estar/acne/
+2024-11-14 17:36:51,008 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=saude-e-bem-estar/acne/&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-14 17:37:09,799 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=saude-e-bem-estar/acne/&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-14 17:37:32,028 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=saude-e-bem-estar/acne/&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-14 17:40:49,719 - logger - ERROR - auchan.py:216 - get_and_parse_auchan_data - Error fetching data for URL https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=saude-e-bem-estar/acne/&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true: Failed to complete get_auchan_data after 3 retries.
+2024-11-14 17:40:49,732 - logger - ERROR - auchan.py:292 - save_data_for_all_cgids - Error processing cgid saude-e-bem-estar/acne/: Cannot save file into a non-existent directory: 'data\auchan\20241114\saude-e-bem-estar\acne'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\auchan\auchan.py", line 287, in save_data_for_all_cgids
+    final_data.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\auchan\20241114\saude-e-bem-estar\acne'
+2024-11-14 17:40:49,938 - logger - INFO - auchan.py:294 - save_data_for_all_cgids - Data fetch process completed

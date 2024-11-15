@@ -1,0 +1,2 @@
+2024-11-13 12:42:35,200 - logger - INFO - catalog.py:202 - process_and_save_categories - Starting process_and_save_categories
+2024-11-13 12:42:35,206 - logger - INFO - catalog.py:207 - process_and_save_categories - Directory 'data/continente' created.

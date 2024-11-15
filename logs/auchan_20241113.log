@@ -1,0 +1,576 @@
+2024-11-13 12:42:35,206 - logger - INFO - auchan.py:259 - save_data_for_all_cgids - Starting data fetch process for 5 cgids
+2024-11-13 12:42:35,207 - logger - INFO - auchan.py:269 - save_data_for_all_cgids - Data will be saved in 'data/auchan\20241113'
+2024-11-13 12:42:35,209 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: alimentacao-
+2024-11-13 12:42:50,602 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 12:42:53,403 - logger - INFO - catalog.py:213 - process_and_save_categories - Successfully hit the initial URL
+2024-11-13 12:42:53,494 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: congelados
+2024-11-13 12:42:53,511 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: congelados
+2024-11-13 12:43:04,898 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 12:43:11,614 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 12:43:18,629 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-13 12:43:28,399 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-13 12:43:36,284 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-13 12:43:58,187 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-13 12:44:28,019 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-13 12:44:35,800 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-13 12:46:24,764 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-13 12:46:45,683 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-13 12:47:06,564 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2332&sz=212&next=true
+2024-11-13 12:47:27,952 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2544&sz=212&next=true
+2024-11-13 12:47:41,954 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category congelados: 966
+2024-11-13 12:47:42,675 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 966 products for category congelados
+2024-11-13 12:47:47,168 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2756&sz=212&next=true
+2024-11-13 12:47:54,940 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 966 products for category congelados
+2024-11-13 12:48:05,072 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 966 products for category congelados
+2024-11-13 12:48:09,140 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2968&sz=212&next=true
+2024-11-13 12:48:14,875 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 966 products for category congelados
+2024-11-13 12:48:25,252 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 966 of 966 products for category congelados
+2024-11-13 12:48:28,298 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true
+2024-11-13 12:48:33,267 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category congelados. Total products: 180
+2024-11-13 12:48:33,268 - logger - ERROR - catalog.py:241 - process_and_save_categories - Error processing category congelados: Cannot save file into a non-existent directory: 'data\continente20241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 236, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\continente20241113'
+2024-11-13 12:48:33,369 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: frescos
+2024-11-13 12:48:33,369 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: frescos
+2024-11-13 12:48:35,247 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category frescos: 3257
+2024-11-13 12:48:35,842 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 3257 products for category frescos
+2024-11-13 12:48:47,519 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 3257 products for category frescos
+2024-11-13 12:48:51,231 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3392&sz=212&next=true
+2024-11-13 12:48:56,119 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 3257 products for category frescos
+2024-11-13 12:49:10,825 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 3257 products for category frescos
+2024-11-13 12:49:11,479 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3604&sz=212&next=true
+2024-11-13 12:49:19,621 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 3257 products for category frescos
+2024-11-13 12:49:31,839 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 3257 products for category frescos
+2024-11-13 12:49:31,853 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3816&sz=212&next=true
+2024-11-13 12:49:43,087 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 3257 products for category frescos
+2024-11-13 12:49:51,303 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 3257 products for category frescos
+2024-11-13 12:49:53,309 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4028&sz=212&next=true
+2024-11-13 12:50:05,354 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 3257 products for category frescos
+2024-11-13 12:50:14,525 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4240&sz=212&next=true
+2024-11-13 12:50:16,914 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 3257 products for category frescos
+2024-11-13 12:50:24,370 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 3257 products for category frescos
+2024-11-13 12:50:33,626 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 3257 products for category frescos
+2024-11-13 12:50:35,143 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4452&sz=212&next=true
+2024-11-13 12:50:53,928 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 3257 products for category frescos
+2024-11-13 12:51:00,950 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 3257 products for category frescos
+2024-11-13 12:51:05,654 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4664&sz=212&next=true
+2024-11-13 12:51:11,226 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 3257 products for category frescos
+2024-11-13 12:51:19,575 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3257 of 3257 products for category frescos
+2024-11-13 12:51:27,086 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4876&sz=212&next=true
+2024-11-13 12:51:28,596 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category frescos. Total products: 557
+2024-11-13 12:51:28,717 - logger - ERROR - catalog.py:241 - process_and_save_categories - Error processing category frescos: Cannot save file into a non-existent directory: 'data\continente2024111320241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 236, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\continente2024111320241113'
+2024-11-13 12:51:28,887 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: mercearias
+2024-11-13 12:51:28,933 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: mercearias
+2024-11-13 12:51:31,678 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category mercearias: 5604
+2024-11-13 12:51:32,443 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 5604 products for category mercearias
+2024-11-13 12:51:41,353 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 5604 products for category mercearias
+2024-11-13 12:51:48,404 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5088&sz=212&next=true
+2024-11-13 12:51:52,119 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 5604 products for category mercearias
+2024-11-13 12:52:03,985 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 5604 products for category mercearias
+2024-11-13 12:52:09,603 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5300&sz=212&next=true
+2024-11-13 12:52:13,175 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 5604 products for category mercearias
+2024-11-13 12:52:25,314 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 5604 products for category mercearias
+2024-11-13 12:52:30,819 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5512&sz=212&next=true
+2024-11-13 12:52:35,503 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 5604 products for category mercearias
+2024-11-13 12:52:45,598 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 5604 products for category mercearias
+2024-11-13 12:52:53,936 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 5604 products for category mercearias
+2024-11-13 12:52:53,945 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5724&sz=212&next=true
+2024-11-13 12:53:01,062 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 5604 products for category mercearias
+2024-11-13 12:53:13,360 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 5604 products for category mercearias
+2024-11-13 12:53:15,695 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5936&sz=212&next=true
+2024-11-13 12:53:20,952 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 5604 products for category mercearias
+2024-11-13 12:53:33,075 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 5604 products for category mercearias
+2024-11-13 12:53:36,254 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6148&sz=212&next=true
+2024-11-13 12:53:40,889 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 5604 products for category mercearias
+2024-11-13 12:53:48,229 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 5604 products for category mercearias
+2024-11-13 12:53:56,576 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6360&sz=212&next=true
+2024-11-13 12:53:56,580 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 5604 products for category mercearias
+2024-11-13 12:54:06,620 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 5604 products for category mercearias
+2024-11-13 12:54:16,120 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 5604 products for category mercearias
+2024-11-13 12:54:17,062 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6572&sz=212&next=true
+2024-11-13 12:54:25,249 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 5604 products for category mercearias
+2024-11-13 12:54:32,490 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 5604 products for category mercearias
+2024-11-13 12:54:38,850 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6784&sz=212&next=true
+2024-11-13 12:54:43,426 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 5604 products for category mercearias
+2024-11-13 12:54:51,024 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 5604 products for category mercearias
+2024-11-13 12:54:59,707 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6996&sz=212&next=true
+2024-11-13 12:55:03,529 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4968 of 5604 products for category mercearias
+2024-11-13 12:55:15,655 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5184 of 5604 products for category mercearias
+2024-11-13 12:55:22,758 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5400 of 5604 products for category mercearias
+2024-11-13 12:55:22,770 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7208&sz=212&next=true
+2024-11-13 12:55:34,228 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5604 of 5604 products for category mercearias
+2024-11-13 12:55:39,248 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category mercearias. Total products: 936
+2024-11-13 12:55:39,252 - logger - ERROR - catalog.py:241 - process_and_save_categories - Error processing category mercearias: Cannot save file into a non-existent directory: 'data\continente202411132024111320241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 236, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\continente202411132024111320241113'
+2024-11-13 12:55:39,256 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: bebidas
+2024-11-13 12:55:39,257 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: bebidas
+2024-11-13 12:55:41,246 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category bebidas: 5677
+2024-11-13 12:55:41,994 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 5677 products for category bebidas
+2024-11-13 12:55:42,469 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7420&sz=212&next=true
+2024-11-13 12:55:51,293 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 5677 products for category bebidas
+2024-11-13 12:56:01,311 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 5677 products for category bebidas
+2024-11-13 12:56:03,995 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7632&sz=212&next=true
+2024-11-13 12:56:12,669 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 5677 products for category bebidas
+2024-11-13 12:56:23,635 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 5677 products for category bebidas
+2024-11-13 12:56:23,645 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7844&sz=212&next=true
+2024-11-13 12:56:26,669 - logger - ERROR - auchan.py:216 - get_and_parse_auchan_data - Error fetching data for URL https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7844&sz=212&next=true: 'NoneType' object is not subscriptable
+2024-11-13 12:56:27,000 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for alimentacao- saved to data/auchan\20241113\alimentacao-_20241113.csv
+2024-11-13 12:56:27,000 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: biologico-e-escolhas-alimentares
+2024-11-13 12:56:31,895 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 5677 products for category bebidas
+2024-11-13 12:56:39,359 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 12:56:44,755 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 5677 products for category bebidas
+2024-11-13 12:56:53,126 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 5677 products for category bebidas
+2024-11-13 12:56:58,799 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 12:57:04,765 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 5677 products for category bebidas
+2024-11-13 12:57:16,507 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 5677 products for category bebidas
+2024-11-13 12:57:22,863 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 12:57:26,202 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 5677 products for category bebidas
+2024-11-13 12:57:39,627 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 5677 products for category bebidas
+2024-11-13 12:57:44,569 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-13 12:57:50,468 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 5677 products for category bebidas
+2024-11-13 12:58:03,239 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 5677 products for category bebidas
+2024-11-13 12:58:09,061 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-13 12:58:16,428 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 5677 products for category bebidas
+2024-11-13 12:58:28,409 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 5677 products for category bebidas
+2024-11-13 12:58:31,381 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-13 12:58:37,576 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 5677 products for category bebidas
+2024-11-13 12:58:48,562 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 5677 products for category bebidas
+2024-11-13 12:58:53,400 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-13 12:58:59,281 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 5677 products for category bebidas
+2024-11-13 12:59:11,318 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 5677 products for category bebidas
+2024-11-13 12:59:15,169 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-13 12:59:22,926 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 5677 products for category bebidas
+2024-11-13 12:59:34,000 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 5677 products for category bebidas
+2024-11-13 12:59:39,264 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-13 12:59:45,460 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4968 of 5677 products for category bebidas
+2024-11-13 12:59:54,907 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5184 of 5677 products for category bebidas
+2024-11-13 13:00:03,370 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5400 of 5677 products for category bebidas
+2024-11-13 13:00:03,644 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-13 13:00:12,597 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5616 of 5677 products for category bebidas
+2024-11-13 13:00:15,693 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-13 13:00:20,802 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5677 of 5677 products for category bebidas
+2024-11-13 13:00:20,888 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for biologico-e-escolhas-alimentares saved to data/auchan\20241113\biologico-e-escolhas-alimentares_20241113.csv
+2024-11-13 13:00:20,889 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: limpeza-da-casa-e-roupa
+2024-11-13 13:00:30,835 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category bebidas. Total products: 972
+2024-11-13 13:00:30,844 - logger - ERROR - catalog.py:241 - process_and_save_categories - Error processing category bebidas: Cannot save file into a non-existent directory: 'data\continente20241113202411132024111320241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 236, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\continente20241113202411132024111320241113'
+2024-11-13 13:00:30,866 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: biologicos
+2024-11-13 13:00:30,868 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: biologicos
+2024-11-13 13:00:32,852 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category biologicos: 2431
+2024-11-13 13:00:33,606 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 2431 products for category biologicos
+2024-11-13 13:00:33,611 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 13:00:44,798 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 2431 products for category biologicos
+2024-11-13 13:00:55,284 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 13:00:58,801 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 2431 products for category biologicos
+2024-11-13 13:01:07,817 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 2431 products for category biologicos
+2024-11-13 13:01:16,467 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 2431 products for category biologicos
+2024-11-13 13:01:21,312 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 13:01:28,096 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 2431 products for category biologicos
+2024-11-13 13:01:37,474 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 2431 products for category biologicos
+2024-11-13 13:01:43,172 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-13 13:01:48,744 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 2431 products for category biologicos
+2024-11-13 13:01:59,249 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 2431 products for category biologicos
+2024-11-13 13:02:08,262 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-13 13:02:11,906 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 2431 products for category biologicos
+2024-11-13 13:02:23,190 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 2431 products for category biologicos
+2024-11-13 13:02:29,823 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-13 13:02:35,814 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2431 of 2431 products for category biologicos
+2024-11-13 13:02:40,827 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category biologicos. Total products: 432
+2024-11-13 13:02:40,830 - logger - ERROR - catalog.py:241 - process_and_save_categories - Error processing category biologicos: Cannot save file into a non-existent directory: 'data\continente2024111320241113202411132024111320241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 236, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\continente2024111320241113202411132024111320241113'
+2024-11-13 13:02:40,833 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: limpeza
+2024-11-13 13:02:40,833 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: limpeza
+2024-11-13 13:02:42,418 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category limpeza: 2018
+2024-11-13 13:02:43,085 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 2018 products for category limpeza
+2024-11-13 13:02:49,664 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-13 13:02:56,421 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 2018 products for category limpeza
+2024-11-13 13:03:10,826 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-13 13:03:20,356 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 2018 products for category limpeza
+2024-11-13 13:03:32,857 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 2018 products for category limpeza
+2024-11-13 13:03:32,867 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-13 13:03:35,532 - logger - ERROR - auchan.py:216 - get_and_parse_auchan_data - Error fetching data for URL https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true: 'NoneType' object is not subscriptable
+2024-11-13 13:03:35,604 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for limpeza-da-casa-e-roupa saved to data/auchan\20241113\limpeza-da-casa-e-roupa_20241113.csv
+2024-11-13 13:03:35,605 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: bebidas-e-garrafeira
+2024-11-13 13:03:40,431 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 2018 products for category limpeza
+2024-11-13 13:03:45,407 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 13:03:50,986 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 2018 products for category limpeza
+2024-11-13 13:04:03,217 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 2018 products for category limpeza
+2024-11-13 13:04:08,110 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 13:04:20,452 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 2018 products for category limpeza
+2024-11-13 13:04:28,736 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 13:04:33,432 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 2018 products for category limpeza
+2024-11-13 13:04:46,967 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2018 of 2018 products for category limpeza
+2024-11-13 13:04:52,397 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-13 13:04:53,006 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category limpeza. Total products: 360
+2024-11-13 13:04:53,158 - logger - ERROR - catalog.py:241 - process_and_save_categories - Error processing category limpeza: Cannot save file into a non-existent directory: 'data\continente202411132024111320241113202411132024111320241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 236, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\continente202411132024111320241113202411132024111320241113'
+2024-11-13 13:04:53,314 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: higiene-beleza
+2024-11-13 13:04:53,454 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: higiene-beleza
+2024-11-13 13:04:57,316 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category higiene-beleza: 4865
+2024-11-13 13:04:58,149 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 4865 products for category higiene-beleza
+2024-11-13 13:05:10,732 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 4865 products for category higiene-beleza
+2024-11-13 13:05:13,641 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-13 13:05:19,427 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 4865 products for category higiene-beleza
+2024-11-13 13:05:28,942 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 4865 products for category higiene-beleza
+2024-11-13 13:05:34,817 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-13 13:05:39,301 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 4865 products for category higiene-beleza
+2024-11-13 13:05:47,620 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 4865 products for category higiene-beleza
+2024-11-13 13:06:22,796 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-13 13:06:42,702 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-13 13:07:03,609 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-13 13:07:25,278 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-13 13:07:45,979 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-13 13:08:05,871 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2332&sz=212&next=true
+2024-11-13 13:08:18,901 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 4865 products for category higiene-beleza
+2024-11-13 13:08:25,979 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 4865 products for category higiene-beleza
+2024-11-13 13:08:27,774 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2544&sz=212&next=true
+2024-11-13 13:08:33,424 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 4865 products for category higiene-beleza
+2024-11-13 13:08:46,939 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 4865 products for category higiene-beleza
+2024-11-13 13:08:49,836 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2756&sz=212&next=true
+2024-11-13 13:08:57,191 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 4865 products for category higiene-beleza
+2024-11-13 13:09:08,383 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 4865 products for category higiene-beleza
+2024-11-13 13:09:11,842 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2968&sz=212&next=true
+2024-11-13 13:09:17,202 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 4865 products for category higiene-beleza
+2024-11-13 13:09:25,127 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 4865 products for category higiene-beleza
+2024-11-13 13:09:32,935 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true
+2024-11-13 13:09:35,286 - logger - ERROR - auchan.py:216 - get_and_parse_auchan_data - Error fetching data for URL https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true: 'NoneType' object is not subscriptable
+2024-11-13 13:09:35,387 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for bebidas-e-garrafeira saved to data/auchan\20241113\bebidas-e-garrafeira_20241113.csv
+2024-11-13 13:09:35,388 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: marcas-auchan
+2024-11-13 13:09:36,651 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 4865 products for category higiene-beleza
+2024-11-13 13:09:43,916 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 4865 products for category higiene-beleza
+2024-11-13 13:09:47,847 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 13:09:54,687 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 4865 products for category higiene-beleza
+2024-11-13 13:10:05,423 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 4865 products for category higiene-beleza
+2024-11-13 13:10:07,229 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 13:10:12,669 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 4865 products for category higiene-beleza
+2024-11-13 13:10:20,780 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 4865 products for category higiene-beleza
+2024-11-13 13:10:26,254 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 13:10:32,516 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 4865 products for category higiene-beleza
+2024-11-13 13:10:41,823 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 4865 products for category higiene-beleza
+2024-11-13 13:10:46,463 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-13 13:10:52,839 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4865 of 4865 products for category higiene-beleza
+2024-11-13 13:11:02,853 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category higiene-beleza. Total products: 828
+2024-11-13 13:11:02,855 - logger - ERROR - catalog.py:241 - process_and_save_categories - Error processing category higiene-beleza: Cannot save file into a non-existent directory: 'data\continente20241113202411132024111320241113202411132024111320241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 236, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\continente20241113202411132024111320241113202411132024111320241113'
+2024-11-13 13:11:02,857 - logger - INFO - catalog.py:228 - process_and_save_categories - Processing category: bebe
+2024-11-13 13:11:02,858 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: bebe
+2024-11-13 13:11:04,742 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category bebe: 1587
+2024-11-13 13:11:05,350 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 1587 products for category bebe
+2024-11-13 13:11:06,419 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-13 13:11:15,914 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 1587 products for category bebe
+2024-11-13 13:11:26,805 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 1587 products for category bebe
+2024-11-13 13:11:26,813 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-13 13:11:36,129 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 1587 products for category bebe
+2024-11-13 13:11:47,347 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 1587 products for category bebe
+2024-11-13 13:11:48,020 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-13 13:11:54,274 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 1587 products for category bebe
+2024-11-13 13:12:06,298 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 1587 products for category bebe
+2024-11-13 13:12:07,525 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-13 13:12:13,152 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1587 of 1587 products for category bebe
+2024-11-13 13:12:19,165 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category bebe. Total products: 288
+2024-11-13 13:12:19,167 - logger - ERROR - catalog.py:241 - process_and_save_categories - Error processing category bebe: Cannot save file into a non-existent directory: 'data\continente2024111320241113202411132024111320241113202411132024111320241113'
+Traceback (most recent call last):
+  File "C:\Users\Miguel\Desktop\dataengineeringpr\continente_price_tracking\continente_price_tracker\src\continente\catalog.py", line 236, in process_and_save_categories
+    df_category_products.to_csv(file_path, index=False)
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\formats\csvs.py", line 247, in save
+    with get_handle(
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\Miguel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'data\continente2024111320241113202411132024111320241113202411132024111320241113'
+2024-11-13 13:12:19,170 - logger - INFO - catalog.py:243 - process_and_save_categories - Completed process_and_save_categories
+2024-11-13 13:12:27,608 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-13 13:12:48,598 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-13 13:13:09,372 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-13 13:13:30,806 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2332&sz=212&next=true
+2024-11-13 13:13:55,238 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2544&sz=212&next=true
+2024-11-13 13:14:15,820 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2756&sz=212&next=true
+2024-11-13 13:14:36,942 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2968&sz=212&next=true
+2024-11-13 13:14:57,611 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true
+2024-11-13 13:15:18,307 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3392&sz=212&next=true
+2024-11-13 13:15:37,543 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3604&sz=212&next=true
+2024-11-13 13:15:59,014 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3816&sz=212&next=true
+2024-11-13 13:16:20,471 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4028&sz=212&next=true
+2024-11-13 13:16:41,546 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4240&sz=212&next=true
+2024-11-13 13:17:01,274 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4452&sz=212&next=true
+2024-11-13 13:17:21,175 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4664&sz=212&next=true
+2024-11-13 13:17:41,249 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4876&sz=212&next=true
+2024-11-13 13:17:59,894 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5088&sz=212&next=true
+2024-11-13 13:18:23,791 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5300&sz=212&next=true
+2024-11-13 13:18:44,834 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5512&sz=212&next=true
+2024-11-13 13:19:05,599 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5724&sz=212&next=true
+2024-11-13 13:19:26,618 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5936&sz=212&next=true
+2024-11-13 13:19:46,994 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6148&sz=212&next=true
+2024-11-13 13:20:06,119 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6360&sz=212&next=true
+2024-11-13 13:20:30,145 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6572&sz=212&next=true
+2024-11-13 13:20:50,485 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6784&sz=212&next=true
+2024-11-13 13:21:10,817 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6996&sz=212&next=true
+2024-11-13 13:21:32,370 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7208&sz=212&next=true
+2024-11-13 13:21:52,235 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7420&sz=212&next=true
+2024-11-13 13:22:12,368 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7632&sz=212&next=true
+2024-11-13 13:22:32,155 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7844&sz=212&next=true
+2024-11-13 13:22:52,754 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=8056&sz=212&next=true
+2024-11-13 13:23:12,866 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=8268&sz=212&next=true
+2024-11-13 13:23:23,434 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=8480&sz=212&next=true
+2024-11-13 13:23:27,693 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for marcas-auchan saved to data/auchan\20241113\marcas-auchan_20241113.csv
+2024-11-13 13:23:27,693 - logger - INFO - auchan.py:294 - save_data_for_all_cgids - Data fetch process completed
+2024-11-13 21:32:01,494 - logger - INFO - auchan.py:259 - save_data_for_all_cgids - Starting data fetch process for 5 cgids
+2024-11-13 21:32:01,506 - logger - INFO - auchan.py:264 - save_data_for_all_cgids - Directory 'data/auchan' created.
+2024-11-13 21:32:01,507 - logger - INFO - auchan.py:269 - save_data_for_all_cgids - Data will be saved in 'data/auchan\20241113'
+2024-11-13 21:32:01,508 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: alimentacao-
+2024-11-13 21:32:12,686 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 21:33:19,440 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 21:33:38,768 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 21:35:17,842 - logger - INFO - auchan.py:259 - save_data_for_all_cgids - Starting data fetch process for 5 cgids
+2024-11-13 21:35:17,843 - logger - INFO - auchan.py:264 - save_data_for_all_cgids - Directory 'data/raw/auchan' created.
+2024-11-13 21:35:17,844 - logger - INFO - auchan.py:269 - save_data_for_all_cgids - Data will be saved in 'data/raw/auchan\20241113'
+2024-11-13 21:35:17,845 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: alimentacao-
+2024-11-13 21:35:18,301 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 21:35:25,725 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 21:35:32,645 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 21:35:39,731 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-13 21:36:00,936 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-13 21:36:20,680 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-13 21:36:40,119 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-13 21:37:00,383 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-13 21:37:19,281 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-13 21:37:39,678 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-13 21:37:58,469 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-13 21:38:19,864 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2332&sz=212&next=true
+2024-11-13 21:38:41,363 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2544&sz=212&next=true
+2024-11-13 21:39:00,300 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2756&sz=212&next=true
+2024-11-13 21:39:19,050 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2968&sz=212&next=true
+2024-11-13 21:39:37,908 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true
+2024-11-13 21:40:01,179 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3392&sz=212&next=true
+2024-11-13 21:40:20,628 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3604&sz=212&next=true
+2024-11-13 21:40:40,240 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3816&sz=212&next=true
+2024-11-13 21:41:03,092 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4028&sz=212&next=true
+2024-11-13 21:41:23,902 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4240&sz=212&next=true
+2024-11-13 21:41:34,214 - logger - INFO - auchan.py:259 - save_data_for_all_cgids - Starting data fetch process for 5 cgids
+2024-11-13 21:41:34,216 - logger - INFO - auchan.py:264 - save_data_for_all_cgids - Directory 'data/raw/auchan' created.
+2024-11-13 21:41:34,217 - logger - INFO - auchan.py:269 - save_data_for_all_cgids - Data will be saved in 'data/raw/auchan\20241113'
+2024-11-13 21:41:34,217 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: alimentacao-
+2024-11-13 21:41:34,737 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 21:41:41,213 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 21:41:47,722 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 21:41:54,605 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-13 21:42:01,196 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-13 21:42:07,752 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-13 21:42:14,887 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-13 21:42:21,709 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-13 21:42:28,463 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-13 21:42:35,459 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-13 21:42:41,998 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-13 21:42:48,808 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2332&sz=212&next=true
+2024-11-13 21:42:55,512 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2544&sz=212&next=true
+2024-11-13 21:43:02,626 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2756&sz=212&next=true
+2024-11-13 21:43:09,471 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=2968&sz=212&next=true
+2024-11-13 21:43:16,038 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true
+2024-11-13 21:43:22,492 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3392&sz=212&next=true
+2024-11-13 21:43:29,139 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3604&sz=212&next=true
+2024-11-13 21:43:36,205 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=3816&sz=212&next=true
+2024-11-13 21:43:42,688 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4028&sz=212&next=true
+2024-11-13 21:43:49,707 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4240&sz=212&next=true
+2024-11-13 21:44:10,928 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4452&sz=212&next=true
+2024-11-13 21:44:30,979 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4664&sz=212&next=true
+2024-11-13 21:44:51,629 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=4876&sz=212&next=true
+2024-11-13 21:45:11,383 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5088&sz=212&next=true
+2024-11-13 21:45:30,527 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5300&sz=212&next=true
+2024-11-13 21:45:50,531 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5512&sz=212&next=true
+2024-11-13 21:46:09,991 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5724&sz=212&next=true
+2024-11-13 21:46:29,126 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=5936&sz=212&next=true
+2024-11-13 21:46:47,839 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6148&sz=212&next=true
+2024-11-13 21:47:08,863 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6360&sz=212&next=true
+2024-11-13 21:47:29,975 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6572&sz=212&next=true
+2024-11-13 21:47:48,902 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6784&sz=212&next=true
+2024-11-13 21:48:07,473 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=6996&sz=212&next=true
+2024-11-13 21:48:30,462 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7208&sz=212&next=true
+2024-11-13 21:48:51,342 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7420&sz=212&next=true
+2024-11-13 21:49:10,377 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7632&sz=212&next=true
+2024-11-13 21:49:30,886 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7844&sz=212&next=true
+2024-11-13 21:49:33,939 - logger - ERROR - auchan.py:216 - get_and_parse_auchan_data - Error fetching data for URL https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=alimentacao-&prefn1=soldInStores&prefv1=000&start=7844&sz=212&next=true: 'NoneType' object is not subscriptable
+2024-11-13 21:49:34,196 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for alimentacao- saved to data/raw/auchan\20241113\alimentacao-_20241113.csv
+2024-11-13 21:49:34,197 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: biologico-e-escolhas-alimentares
+2024-11-13 21:49:46,167 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 21:50:07,734 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 21:50:26,874 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 21:50:46,496 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-13 21:51:06,354 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-13 21:51:25,697 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-13 21:51:44,912 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-13 21:52:04,151 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-13 21:52:25,289 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-13 21:52:45,780 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-13 21:52:59,864 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=biologico-e-escolhas-alimentares&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-13 21:53:04,353 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for biologico-e-escolhas-alimentares saved to data/raw/auchan\20241113\biologico-e-escolhas-alimentares_20241113.csv
+2024-11-13 21:53:04,354 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: limpeza-da-casa-e-roupa
+2024-11-13 21:53:18,116 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 21:53:39,240 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 21:54:00,737 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 21:54:19,665 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-13 21:54:48,461 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-13 21:55:15,709 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-13 21:55:45,449 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-13 21:56:05,537 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-13 21:56:26,479 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-13 21:56:29,488 - logger - ERROR - auchan.py:216 - get_and_parse_auchan_data - Error fetching data for URL https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=limpeza-da-casa-e-roupa&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true: 'NoneType' object is not subscriptable
+2024-11-13 21:56:29,549 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for limpeza-da-casa-e-roupa saved to data/raw/auchan\20241113\limpeza-da-casa-e-roupa_20241113.csv
+2024-11-13 21:56:29,550 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: bebidas-e-garrafeira
+2024-11-13 21:56:42,792 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 21:57:02,158 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 21:57:23,316 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 21:57:43,059 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-13 21:58:06,689 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-13 21:58:29,858 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-13 21:58:50,193 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-13 21:59:46,652 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-13 22:00:24,524 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-13 22:00:51,269 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-13 22:01:12,731 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-13 22:01:39,029 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2332&sz=212&next=true
+2024-11-13 22:01:59,578 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2544&sz=212&next=true
+2024-11-13 22:02:19,405 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2756&sz=212&next=true
+2024-11-13 22:02:54,387 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=2968&sz=212&next=true
+2024-11-13 22:03:21,956 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true
+2024-11-13 22:03:24,364 - logger - ERROR - auchan.py:216 - get_and_parse_auchan_data - Error fetching data for URL https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=bebidas-e-garrafeira&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true: 'NoneType' object is not subscriptable
+2024-11-13 22:03:24,445 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for bebidas-e-garrafeira saved to data/raw/auchan\20241113\bebidas-e-garrafeira_20241113.csv
+2024-11-13 22:03:24,445 - logger - INFO - auchan.py:273 - save_data_for_all_cgids - Processing cgid: marcas-auchan
+2024-11-13 22:03:34,813 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=0&sz=212&next=true
+2024-11-13 22:03:56,918 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=212&sz=212&next=true
+2024-11-13 22:04:15,856 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=424&sz=212&next=true
+2024-11-13 22:04:36,601 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=636&sz=212&next=true
+2024-11-13 22:04:56,501 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=848&sz=212&next=true
+2024-11-13 22:05:17,312 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1060&sz=212&next=true
+2024-11-13 22:05:37,091 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1272&sz=212&next=true
+2024-11-13 22:05:57,968 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1484&sz=212&next=true
+2024-11-13 22:06:18,843 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1696&sz=212&next=true
+2024-11-13 22:06:37,947 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=1908&sz=212&next=true
+2024-11-13 22:06:59,461 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2120&sz=212&next=true
+2024-11-13 22:07:20,738 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2332&sz=212&next=true
+2024-11-13 22:07:41,892 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2544&sz=212&next=true
+2024-11-13 22:08:01,216 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2756&sz=212&next=true
+2024-11-13 22:08:21,015 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=2968&sz=212&next=true
+2024-11-13 22:08:39,964 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3180&sz=212&next=true
+2024-11-13 22:09:00,982 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3392&sz=212&next=true
+2024-11-13 22:09:21,219 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3604&sz=212&next=true
+2024-11-13 22:09:40,059 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=3816&sz=212&next=true
+2024-11-13 22:09:58,752 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4028&sz=212&next=true
+2024-11-13 22:10:18,261 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4240&sz=212&next=true
+2024-11-13 22:10:37,016 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4452&sz=212&next=true
+2024-11-13 22:10:57,493 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4664&sz=212&next=true
+2024-11-13 22:11:16,320 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=4876&sz=212&next=true
+2024-11-13 22:11:39,346 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5088&sz=212&next=true
+2024-11-13 22:12:00,113 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5300&sz=212&next=true
+2024-11-13 22:12:19,585 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5512&sz=212&next=true
+2024-11-13 22:12:40,807 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5724&sz=212&next=true
+2024-11-13 22:13:00,637 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=5936&sz=212&next=true
+2024-11-13 22:13:20,284 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6148&sz=212&next=true
+2024-11-13 22:13:41,575 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6360&sz=212&next=true
+2024-11-13 22:14:02,436 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6572&sz=212&next=true
+2024-11-13 22:14:21,191 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6784&sz=212&next=true
+2024-11-13 22:14:40,698 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=6996&sz=212&next=true
+2024-11-13 22:14:59,555 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7208&sz=212&next=true
+2024-11-13 22:15:20,249 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7420&sz=212&next=true
+2024-11-13 22:15:39,137 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7632&sz=212&next=true
+2024-11-13 22:15:58,265 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=7844&sz=212&next=true
+2024-11-13 22:16:17,500 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=8056&sz=212&next=true
+2024-11-13 22:16:38,302 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=8268&sz=212&next=true
+2024-11-13 22:16:48,279 - logger - INFO - auchan.py:212 - get_and_parse_auchan_data - Successful GET request for URL: https://www.auchan.pt/on/demandware.store/Sites-AuchanPT-Site/pt_PT/Search-UpdateGrid?cgid=marcas-auchan&prefn1=soldInStores&prefv1=000&start=8480&sz=212&next=true
+2024-11-13 22:16:52,319 - logger - INFO - auchan.py:288 - save_data_for_all_cgids - Data for marcas-auchan saved to data/raw/auchan\20241113\marcas-auchan_20241113.csv
+2024-11-13 22:16:52,320 - logger - INFO - auchan.py:294 - save_data_for_all_cgids - Data fetch process completed

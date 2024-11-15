@@ -8,6 +8,7 @@ import random
 from datetime import datetime
 from utils import retry_on_failure
 import os
+from logger import setup_logger
 
 
 def parse_total_products(html_content):
@@ -108,7 +109,7 @@ def parse_product_data(html_content, cgid):
 
 # Function to fetch a page of products with caching and retry behavior
 # @lru_cache(maxsize=None)
-@retry_on_failure(retries=3, delay=60)
+@retry_on_failure(retries=3, delay=120)
 def fetch_page(start, sz, cgid, pmin, srule):
     url = "https://www.continente.pt/on/demandware.store/Sites-continente-Site/default/Search-UpdateGrid"
     headers = {
@@ -151,66 +152,71 @@ def fetch_page(start, sz, cgid, pmin, srule):
 
 
 # Main function to fetch all products for a given category
-@retry_on_failure(retries=3, delay=60)
-def fetch_all_products_for_category(cgid,
-                                    sz=216,
-                                    pmin="0.01",
-                                    srule="FRESH-Peixaria"):
+logger = setup_logger("logs/continente_scraper.log")
+
+@retry_on_failure(retries=3, delay=360)
+def fetch_all_products_for_category(cgid, sz=216, pmin="0.01", srule="FRESH-Peixaria"):
+    logger.info(f"Starting to fetch products for category: {cgid}")
     products = []
     current_start = 0
     total_products = None
 
     while total_products is None or current_start < total_products:
-        # Fetch the current page with caching and retry
-        html_content = fetch_page(current_start, sz, cgid, pmin, srule)
+        try:
+            # Fetch the current page with caching and retry
+            html_content = fetch_page(current_start, sz, cgid, pmin, srule)
+            logger.debug(f"Fetched page for category {cgid}, start: {current_start}")
 
-        # Parse total products only on the first page load
-        if total_products is None:
-            total_products = parse_total_products(html_content)
+            # Parse total products only on the first page load
             if total_products is None:
-                print(
-                    f"Failed to retrieve total products count for category {cgid}."
-                )
-                return pd.DataFrame(products)
+                total_products = parse_total_products(html_content)
+                if total_products is None:
+                    logger.warning(f"Failed to retrieve total products count for category {cgid}.")
+                    return pd.DataFrame(products)
+                logger.info(f"Total products for category {cgid}: {total_products}")
 
-        # Parse products from current page
-        page_products = parse_product_data(html_content, cgid)
-        products.append(page_products)
+            # Parse products from current page
+            page_products = parse_product_data(html_content, cgid)
+            products.append(page_products)
 
-        print(
-            f"Fetched {min(current_start + sz, total_products)} of {total_products} products for category {cgid}"
-        )
+            logger.info(f"Fetched {min(current_start + sz, total_products)} of {total_products} products for category {cgid}")
 
-        # Move to the next batch
-        current_start += sz
-        time.sleep(random.randint(5,
-                                  10))  # Random delay to avoid server overload
+            # Move to the next batch
+            current_start += sz
+            delay = random.randint(5, 10)
+            logger.debug(f"Waiting for {delay} seconds before next request")
+            time.sleep(delay)  # Random delay to avoid server overload
+
+        except Exception as e:
+            logger.error(f"Error fetching products for category {cgid}: {str(e)}", exc_info=True)
+            break
 
     df = pd.concat(products)
     df["tracking_date"] = datetime.now().strftime("%Y-%m-%d")
     df["source"] = "Continente"
 
+    logger.info(f"Completed fetching products for category {cgid}. Total products: {len(df)}")
     return df
 
-
-def process_and_save_categories(base_path="data/continente"):
-    """
-    Fetches product data for multiple categories and saves them to CSV files in the specified directory.
-
-    Args:
-        base_path (str): The directory where the CSV files will be saved. Defaults to "data".
-    """
-    # Ensure the base path exists; if not, create it
-    if not os.path.exists(base_path):
-        os.makedirs(base_path)
-        print(f"Directory '{base_path}' created.")
+def process_and_save_categories(base_path="data/raw/continente"):
+    logger.info("Starting process_and_save_categories")
 
     # Base URL to make requests (could be useful for fetching pages etc.)
     initial_url = "https://www.continente.pt/"
-    requests.get(initial_url)  # Just hitting the URL to initialize, if needed
+    try:
+        requests.get(initial_url)
+        logger.info("Successfully hit the initial URL")
+    except Exception as e:
+        logger.error(f"Failed to hit initial URL: {str(e)}", exc_info=True)
 
     # Create a timestamp for unique filenames
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    base_path = base_path + "/" + datetime.now().strftime("%Y%m%d")
+
+    # Ensure the base path exists; if not, create it
+    if not os.path.exists(base_path):
+        os.makedirs(base_path)
+        logger.info(f"Directory '{base_path}' created.")
 
     # List of categories to fetch
     CATEGORIES = [
@@ -220,14 +226,18 @@ def process_and_save_categories(base_path="data/continente"):
 
     # Iterate through categories and fetch/save product data
     for category in CATEGORIES:
-        print(f"Processing category: {category}")
-        df_category_products = fetch_all_products_for_category(category)
+        logger.info(f"Processing category: {category}")
+        try:
+            df_category_products = fetch_all_products_for_category(category)
 
-        if not df_category_products.empty:
-            filename = f"{category}_{timestamp}.csv"
-            file_path = os.path.join(base_path,
-                                     filename)  # Path to save the file
-            df_category_products.to_csv(file_path, index=False)
-            print(f"Saved data for category '{category}' to {file_path}")
-        else:
-            print(f"No data found for category {category}.")
+            if not df_category_products.empty:
+                filename = f"{category}.csv"
+                file_path = os.path.join(base_path, filename)  # Path to save the file
+                df_category_products.to_csv(file_path, index=False)
+                logger.info(f"Saved data for category '{category}' to {file_path}")
+            else:
+                logger.warning(f"No data found for category {category}.")
+        except Exception as e:
+            logger.error(f"Error processing category {category}: {str(e)}", exc_info=True)
+
+    logger.info("Completed process_and_save_categories")
