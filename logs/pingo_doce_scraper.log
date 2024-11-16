@@ -554,3 +554,8 @@ OSError: Cannot save file into a non-existent directory: 'data\raw\continente\20
 2024-11-13 19:02:58,015 - logger - INFO - catalog.py:243 - process_and_save_categories - Completed process_and_save_categories
 2024-11-14 16:57:01,711 - logger - INFO - catalog.py:202 - process_and_save_categories - Starting process_and_save_categories
 2024-11-14 16:57:01,714 - logger - INFO - pingo_doce.py:196 - parse_and_save_all_categories - Starting to parse and save data for 7 categories
+2024-11-15 13:26:39,420 - logger - INFO - catalog.py:202 - process_and_save_categories - Starting process_and_save_categories
+2024-11-15 13:26:39,424 - logger - INFO - pingo_doce.py:196 - parse_and_save_all_categories - Starting to parse and save data for 7 categories
+2024-11-16 13:25:54,706 - logger - INFO - catalog.py:202 - process_and_save_categories - Starting process_and_save_categories
+2024-11-16 13:25:54,708 - logger - INFO - pingo_doce.py:196 - parse_and_save_all_categories - Starting to parse and save data for 7 categories
+2024-11-16 13:25:54,713 - logger - INFO - pingo_doce.py:202 - parse_and_save_all_categories - Created directory: data/raw/pingo_doce/20241116
