@@ -32,7 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB }}
         run: |
-          python continente_price_tracker/src/catalog.py
+          python continente_price_tracker/src/main.py
 
       - name: Commit and push CSV files
         if: success()
