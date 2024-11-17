@@ -40,7 +40,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git checkout integration-branch
-          git add *.csv
+          git add .
           timestamp=$(date +'%Y-%m-%d %H:%M:%S')
           git commit -m "Update CSV files - $timestamp" || echo "No changes to commit"
           git push origin integration-branch
