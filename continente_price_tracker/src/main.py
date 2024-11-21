@@ -3,7 +3,7 @@ from pingo_doce.pingo_doce import parse_and_save_all_categories
 from auchan.auchan import save_data_for_all_cgids
 
 # continente
-# process_and_save_categories()
+process_and_save_categories()
 
 # pingo doce
 # Example usage
@@ -14,7 +14,7 @@ categories = [
     "pingo-doce-refeicoes-prontas", "pingo-doce-cozinha-e-limpeza", "pingo-doce-congelados"
 ]
 
-# parse_and_save_all_categories(categories)
+parse_and_save_all_categories(categories)
 
 cgid_list = [
     "alimentacao-", "biologico-e-escolhas-alimentares",

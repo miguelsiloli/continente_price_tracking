@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          ref: integration-branch  # Specify the integration branch
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -30,14 +32,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB }}
         run: |
-          python continente_price_tracker/src/catalog.py
+          python continente_price_tracker/src/main.py
 
       - name: Commit and push CSV files
         if: success()
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add *.csv
+          git checkout integration-branch
+          git add .
           timestamp=$(date +'%Y-%m-%d %H:%M:%S')
           git commit -m "Update CSV files - $timestamp" || echo "No changes to commit"
-          git push
+          git push origin integration-branch
