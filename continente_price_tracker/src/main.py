@@ -14,7 +14,7 @@ categories = [
     "pingo-doce-refeicoes-prontas", "pingo-doce-cozinha-e-limpeza", "pingo-doce-congelados"
 ]
 
-# parse_and_save_all_categories(categories)
+parse_and_save_all_categories(categories)
 
 cgid_list = [
     "alimentacao-", "biologico-e-escolhas-alimentares",
