@@ -2245,3 +2245,677 @@ TypeError: 'NoneType' object is not subscriptable
 2024-11-23 01:48:43,508 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-congelados. Total products: 0
 2024-11-23 01:48:43,508 - logger - WARNING - pingo_doce.py:215 - parse_and_save_all_categories - No data found for category 'pingo-doce-congelados'. Skipping...
 2024-11-23 01:48:43,508 - logger - INFO - pingo_doce.py:219 - parse_and_save_all_categories - Completed parsing and saving data for all categories
+2024-11-24 01:32:31,242 - logger - INFO - catalog.py:202 - process_and_save_categories - Starting process_and_save_categories
+2024-11-24 01:32:32,084 - logger - INFO - catalog.py:208 - process_and_save_categories - Successfully hit the initial URL
+2024-11-24 01:32:32,084 - logger - INFO - catalog.py:219 - process_and_save_categories - Directory 'data/raw/continente/20241124' created.
+2024-11-24 01:32:32,085 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: congelados
+2024-11-24 01:32:32,085 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: congelados
+2024-11-24 01:32:33,380 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category congelados: 970
+2024-11-24 01:32:33,592 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 970 products for category congelados
+2024-11-24 01:32:40,022 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 970 products for category congelados
+2024-11-24 01:32:47,542 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 970 products for category congelados
+2024-11-24 01:32:59,165 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 970 products for category congelados
+2024-11-24 01:33:07,740 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 970 of 970 products for category congelados
+2024-11-24 01:33:14,749 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category congelados. Total products: 180
+2024-11-24 01:33:14,753 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'congelados' to data/raw/continente/20241124/congelados.csv
+2024-11-24 01:33:14,753 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: frescos
+2024-11-24 01:33:14,753 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: frescos
+2024-11-24 01:33:15,724 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category frescos: 3322
+2024-11-24 01:33:15,929 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 3322 products for category frescos
+2024-11-24 01:33:21,875 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 3322 products for category frescos
+2024-11-24 01:33:32,399 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 3322 products for category frescos
+2024-11-24 01:33:42,902 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 3322 products for category frescos
+2024-11-24 01:33:52,538 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 3322 products for category frescos
+2024-11-24 01:34:04,169 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 3322 products for category frescos
+2024-11-24 01:34:20,926 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 3322 products for category frescos
+2024-11-24 01:34:29,512 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 3322 products for category frescos
+2024-11-24 01:34:37,107 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 3322 products for category frescos
+2024-11-24 01:34:44,456 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 3322 products for category frescos
+2024-11-24 01:34:53,352 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 3322 products for category frescos
+2024-11-24 01:35:03,849 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 3322 products for category frescos
+2024-11-24 01:35:11,252 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 3322 products for category frescos
+2024-11-24 01:35:18,739 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 3322 products for category frescos
+2024-11-24 01:35:30,448 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 3322 products for category frescos
+2024-11-24 01:35:39,873 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3322 of 3322 products for category frescos
+2024-11-24 01:35:48,884 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category frescos. Total products: 576
+2024-11-24 01:35:48,890 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'frescos' to data/raw/continente/20241124/frescos.csv
+2024-11-24 01:35:48,890 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: mercearias
+2024-11-24 01:35:48,890 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: mercearias
+2024-11-24 01:35:49,779 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category mercearias: 5609
+2024-11-24 01:35:49,985 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 5609 products for category mercearias
+2024-11-24 01:35:57,277 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 5609 products for category mercearias
+2024-11-24 01:36:05,088 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 5609 products for category mercearias
+2024-11-24 01:36:11,645 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 5609 products for category mercearias
+2024-11-24 01:36:18,253 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 5609 products for category mercearias
+2024-11-24 01:36:27,000 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 5609 products for category mercearias
+2024-11-24 01:36:34,757 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 5609 products for category mercearias
+2024-11-24 01:36:41,568 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 5609 products for category mercearias
+2024-11-24 01:36:50,330 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 5609 products for category mercearias
+2024-11-24 01:37:02,073 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 5609 products for category mercearias
+2024-11-24 01:37:13,883 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 5609 products for category mercearias
+2024-11-24 01:37:22,766 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 5609 products for category mercearias
+2024-11-24 01:37:33,539 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 5609 products for category mercearias
+2024-11-24 01:37:41,292 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 5609 products for category mercearias
+2024-11-24 01:37:51,437 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 5609 products for category mercearias
+2024-11-24 01:38:17,208 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 5609 products for category mercearias
+2024-11-24 01:38:23,917 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 5609 products for category mercearias
+2024-11-24 01:38:31,670 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 5609 products for category mercearias
+2024-11-24 01:38:40,290 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 5609 products for category mercearias
+2024-11-24 01:38:51,941 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 5609 products for category mercearias
+2024-11-24 01:39:00,661 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 5609 products for category mercearias
+2024-11-24 01:39:11,185 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 5609 products for category mercearias
+2024-11-24 01:39:19,955 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4968 of 5609 products for category mercearias
+2024-11-24 01:39:28,618 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5184 of 5609 products for category mercearias
+2024-11-24 01:39:39,083 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5400 of 5609 products for category mercearias
+2024-11-24 01:39:45,513 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5609 of 5609 products for category mercearias
+2024-11-24 01:39:51,521 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category mercearias. Total products: 936
+2024-11-24 01:39:51,531 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'mercearias' to data/raw/continente/20241124/mercearias.csv
+2024-11-24 01:39:51,531 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: bebidas
+2024-11-24 01:39:51,531 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: bebidas
+2024-11-24 01:39:52,553 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category bebidas: 5737
+2024-11-24 01:39:52,801 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 5737 products for category bebidas
+2024-11-24 01:40:04,128 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 5737 products for category bebidas
+2024-11-24 01:40:14,204 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 5737 products for category bebidas
+2024-11-24 01:40:25,703 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 5737 products for category bebidas
+2024-11-24 01:40:33,213 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 5737 products for category bebidas
+2024-11-24 01:40:42,256 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 5737 products for category bebidas
+2024-11-24 01:40:53,729 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 5737 products for category bebidas
+2024-11-24 01:41:04,449 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 5737 products for category bebidas
+2024-11-24 01:41:14,837 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 5737 products for category bebidas
+2024-11-24 01:41:24,148 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 5737 products for category bebidas
+2024-11-24 01:41:35,634 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 5737 products for category bebidas
+2024-11-24 01:41:53,245 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 5737 products for category bebidas
+2024-11-24 01:42:05,733 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 5737 products for category bebidas
+2024-11-24 01:42:16,908 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 5737 products for category bebidas
+2024-11-24 01:42:27,126 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 5737 products for category bebidas
+2024-11-24 01:42:35,186 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 5737 products for category bebidas
+2024-11-24 01:42:42,127 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 5737 products for category bebidas
+2024-11-24 01:42:49,023 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 5737 products for category bebidas
+2024-11-24 01:42:58,982 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 5737 products for category bebidas
+2024-11-24 01:43:10,049 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 5737 products for category bebidas
+2024-11-24 01:43:22,127 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 5737 products for category bebidas
+2024-11-24 01:43:32,883 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 5737 products for category bebidas
+2024-11-24 01:43:41,528 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4968 of 5737 products for category bebidas
+2024-11-24 01:43:49,516 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5184 of 5737 products for category bebidas
+2024-11-24 01:44:00,833 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5400 of 5737 products for category bebidas
+2024-11-24 01:44:12,807 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5616 of 5737 products for category bebidas
+2024-11-24 01:44:25,382 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 5737 of 5737 products for category bebidas
+2024-11-24 01:44:33,392 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category bebidas. Total products: 972
+2024-11-24 01:44:33,403 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'bebidas' to data/raw/continente/20241124/bebidas.csv
+2024-11-24 01:44:33,403 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: biologicos
+2024-11-24 01:44:33,403 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: biologicos
+2024-11-24 01:44:34,307 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category biologicos: 2455
+2024-11-24 01:44:34,513 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 2455 products for category biologicos
+2024-11-24 01:44:41,374 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 2455 products for category biologicos
+2024-11-24 01:44:50,200 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 2455 products for category biologicos
+2024-11-24 01:44:59,182 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 2455 products for category biologicos
+2024-11-24 01:45:05,501 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 2455 products for category biologicos
+2024-11-24 01:45:12,263 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 2455 products for category biologicos
+2024-11-24 01:45:20,690 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 2455 products for category biologicos
+2024-11-24 01:45:28,234 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 2455 products for category biologicos
+2024-11-24 01:45:34,760 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 2455 products for category biologicos
+2024-11-24 01:45:47,722 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 2455 products for category biologicos
+2024-11-24 01:45:59,540 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 2455 products for category biologicos
+2024-11-24 01:46:09,175 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2455 of 2455 products for category biologicos
+2024-11-24 01:46:14,182 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category biologicos. Total products: 432
+2024-11-24 01:46:14,187 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'biologicos' to data/raw/continente/20241124/biologicos.csv
+2024-11-24 01:46:14,187 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: limpeza
+2024-11-24 01:46:14,187 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: limpeza
+2024-11-24 01:46:14,924 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category limpeza: 2033
+2024-11-24 01:46:15,128 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 2033 products for category limpeza
+2024-11-24 01:46:24,356 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 2033 products for category limpeza
+2024-11-24 01:46:30,522 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 2033 products for category limpeza
+2024-11-24 01:46:36,863 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 2033 products for category limpeza
+2024-11-24 01:46:46,561 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 2033 products for category limpeza
+2024-11-24 01:46:58,454 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 2033 products for category limpeza
+2024-11-24 01:47:05,139 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 2033 products for category limpeza
+2024-11-24 01:47:14,663 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 2033 products for category limpeza
+2024-11-24 01:47:21,203 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 2033 products for category limpeza
+2024-11-24 01:47:32,035 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2033 of 2033 products for category limpeza
+2024-11-24 01:47:38,043 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category limpeza. Total products: 360
+2024-11-24 01:47:38,048 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'limpeza' to data/raw/continente/20241124/limpeza.csv
+2024-11-24 01:47:38,048 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: higiene-beleza
+2024-11-24 01:47:38,048 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: higiene-beleza
+2024-11-24 01:47:38,877 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category higiene-beleza: 4886
+2024-11-24 01:47:39,087 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 4886 products for category higiene-beleza
+2024-11-24 01:47:47,281 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 4886 products for category higiene-beleza
+2024-11-24 01:47:57,518 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 4886 products for category higiene-beleza
+2024-11-24 01:48:05,750 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 4886 products for category higiene-beleza
+2024-11-24 01:48:12,015 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 4886 products for category higiene-beleza
+2024-11-24 01:48:21,337 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 4886 products for category higiene-beleza
+2024-11-24 01:48:29,737 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 4886 products for category higiene-beleza
+2024-11-24 01:48:38,996 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1728 of 4886 products for category higiene-beleza
+2024-11-24 01:48:50,314 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1944 of 4886 products for category higiene-beleza
+2024-11-24 01:49:00,801 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2160 of 4886 products for category higiene-beleza
+2024-11-24 01:49:08,456 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2376 of 4886 products for category higiene-beleza
+2024-11-24 01:49:18,200 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2592 of 4886 products for category higiene-beleza
+2024-11-24 01:49:24,777 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 2808 of 4886 products for category higiene-beleza
+2024-11-24 01:49:35,564 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3024 of 4886 products for category higiene-beleza
+2024-11-24 01:49:46,425 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3240 of 4886 products for category higiene-beleza
+2024-11-24 01:50:04,629 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3456 of 4886 products for category higiene-beleza
+2024-11-24 01:50:11,518 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3672 of 4886 products for category higiene-beleza
+2024-11-24 01:50:22,158 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 3888 of 4886 products for category higiene-beleza
+2024-11-24 01:50:34,067 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4104 of 4886 products for category higiene-beleza
+2024-11-24 01:50:43,531 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4320 of 4886 products for category higiene-beleza
+2024-11-24 01:50:50,263 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4536 of 4886 products for category higiene-beleza
+2024-11-24 01:50:57,246 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4752 of 4886 products for category higiene-beleza
+2024-11-24 01:51:06,794 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 4886 of 4886 products for category higiene-beleza
+2024-11-24 01:51:11,802 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category higiene-beleza. Total products: 828
+2024-11-24 01:51:11,810 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'higiene-beleza' to data/raw/continente/20241124/higiene-beleza.csv
+2024-11-24 01:51:11,810 - logger - INFO - catalog.py:229 - process_and_save_categories - Processing category: bebe
+2024-11-24 01:51:11,810 - logger - INFO - catalog.py:159 - fetch_all_products_for_category - Starting to fetch products for category: bebe
+2024-11-24 01:51:13,227 - logger - INFO - catalog.py:176 - fetch_all_products_for_category - Total products for category bebe: 1658
+2024-11-24 01:51:13,435 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 216 of 1658 products for category bebe
+2024-11-24 01:51:23,919 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 432 of 1658 products for category bebe
+2024-11-24 01:51:34,127 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 648 of 1658 products for category bebe
+2024-11-24 01:51:43,688 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 864 of 1658 products for category bebe
+2024-11-24 01:51:52,039 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1080 of 1658 products for category bebe
+2024-11-24 01:52:00,088 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1296 of 1658 products for category bebe
+2024-11-24 01:52:10,874 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1512 of 1658 products for category bebe
+2024-11-24 01:52:17,373 - logger - INFO - catalog.py:182 - fetch_all_products_for_category - Fetched 1658 of 1658 products for category bebe
+2024-11-24 01:52:27,384 - logger - INFO - catalog.py:198 - fetch_all_products_for_category - Completed fetching products for category bebe. Total products: 288
+2024-11-24 01:52:27,388 - logger - INFO - catalog.py:237 - process_and_save_categories - Saved data for category 'bebe' to data/raw/continente/20241124/bebe.csv
+2024-11-24 01:52:27,388 - logger - INFO - catalog.py:243 - process_and_save_categories - Completed process_and_save_categories
+2024-11-24 01:52:27,389 - logger - INFO - pingo_doce.py:196 - parse_and_save_all_categories - Starting to parse and save data for 9 categories
+2024-11-24 01:52:27,389 - logger - INFO - pingo_doce.py:202 - parse_and_save_all_categories - Created directory: data/raw/pingo_doce/20241124
+2024-11-24 01:52:27,389 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-lacticinios
+2024-11-24 01:52:27,389 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-lacticinios
+2024-11-24 01:52:30,718 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 10 pages for category pingo-doce-lacticinios
+2024-11-24 01:52:30,902 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 1 for category pingo-doce-lacticinios: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:52:37,213 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 2 for category pingo-doce-lacticinios: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:52:43,382 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 3 for category pingo-doce-lacticinios: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:52:49,813 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 4 for category pingo-doce-lacticinios: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:52:55,840 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 5 for category pingo-doce-lacticinios: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:53:02,502 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 6 for category pingo-doce-lacticinios: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:53:08,348 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 7 for category pingo-doce-lacticinios: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:53:14,447 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 8 for category pingo-doce-lacticinios: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:53:20,335 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 9 for category pingo-doce-lacticinios: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:53:25,013 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 10 for category pingo-doce-lacticinios: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:53:28,017 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-lacticinios. Total products: 0
+2024-11-24 01:53:28,018 - logger - WARNING - pingo_doce.py:215 - parse_and_save_all_categories - No data found for category 'pingo-doce-lacticinios'. Skipping...
+2024-11-24 01:53:28,018 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-bebidas
+2024-11-24 01:53:28,018 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-bebidas
+2024-11-24 01:53:31,081 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 5 pages for category pingo-doce-bebidas
+2024-11-24 01:53:31,160 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 1 for category pingo-doce-bebidas: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:53:37,562 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 2 for category pingo-doce-bebidas: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:53:43,803 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 3 for category pingo-doce-bebidas: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:53:49,652 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 4 for category pingo-doce-bebidas: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:53:55,888 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 5 for category pingo-doce-bebidas: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:53:58,892 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-bebidas. Total products: 0
+2024-11-24 01:53:58,892 - logger - WARNING - pingo_doce.py:215 - parse_and_save_all_categories - No data found for category 'pingo-doce-bebidas'. Skipping...
+2024-11-24 01:53:58,892 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-frescos-embalados
+2024-11-24 01:53:58,893 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-frescos-embalados
+2024-11-24 01:54:01,550 - logger - WARNING - pingo_doce.py:166 - parse_all_pages_for_category - Could not determine last page for category pingo-doce-frescos-embalados. Assuming only 1 page.
+2024-11-24 01:54:01,921 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 1 for category pingo-doce-frescos-embalados: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:54:04,926 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-frescos-embalados. Total products: 0
+2024-11-24 01:54:04,926 - logger - WARNING - pingo_doce.py:215 - parse_and_save_all_categories - No data found for category 'pingo-doce-frescos-embalados'. Skipping...
+2024-11-24 01:54:04,926 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-higiene-e-beleza
+2024-11-24 01:54:04,926 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-higiene-e-beleza
+2024-11-24 01:54:08,532 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 6 pages for category pingo-doce-higiene-e-beleza
+2024-11-24 01:54:08,655 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 1 for category pingo-doce-higiene-e-beleza: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:54:14,477 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 2 for category pingo-doce-higiene-e-beleza: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:54:20,372 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 3 for category pingo-doce-higiene-e-beleza: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:54:26,288 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 4 for category pingo-doce-higiene-e-beleza: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:54:32,536 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 5 for category pingo-doce-higiene-e-beleza: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:54:38,283 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 6 for category pingo-doce-higiene-e-beleza: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:54:41,287 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-higiene-e-beleza. Total products: 0
+2024-11-24 01:54:41,287 - logger - WARNING - pingo_doce.py:215 - parse_and_save_all_categories - No data found for category 'pingo-doce-higiene-e-beleza'. Skipping...
+2024-11-24 01:54:41,287 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-maquinas-e-capsulas-de-cafe
+2024-11-24 01:54:41,287 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-maquinas-e-capsulas-de-cafe
+2024-11-24 01:54:44,224 - logger - WARNING - pingo_doce.py:166 - parse_all_pages_for_category - Could not determine last page for category pingo-doce-maquinas-e-capsulas-de-cafe. Assuming only 1 page.
+2024-11-24 01:54:44,514 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 1 for category pingo-doce-maquinas-e-capsulas-de-cafe: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:54:47,518 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-maquinas-e-capsulas-de-cafe. Total products: 0
+2024-11-24 01:54:47,518 - logger - WARNING - pingo_doce.py:215 - parse_and_save_all_categories - No data found for category 'pingo-doce-maquinas-e-capsulas-de-cafe'. Skipping...
+2024-11-24 01:54:47,518 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-mercearia
+2024-11-24 01:54:47,519 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-mercearia
+2024-11-24 01:54:50,512 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 29 pages for category pingo-doce-mercearia
+2024-11-24 01:54:50,616 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 1 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:54:56,945 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 2 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:55:03,852 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 3 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:55:10,048 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 4 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:55:16,089 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 5 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:55:22,420 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 6 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:55:28,515 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 7 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:55:35,092 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 8 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:55:41,305 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 9 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:55:47,580 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 10 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:55:53,659 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 11 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:55:59,496 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 12 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:56:06,559 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 13 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:56:12,521 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 14 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:56:18,640 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 15 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:56:24,542 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 16 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:56:30,593 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 17 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:56:36,644 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 18 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:56:43,624 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 19 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:56:50,072 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 20 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:56:56,998 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 21 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:57:04,065 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 22 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:57:10,617 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 23 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:57:16,762 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 24 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:57:22,760 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 25 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:57:28,715 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 26 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:57:34,646 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 27 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:57:40,620 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 28 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:57:46,748 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 29 for category pingo-doce-mercearia: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:57:49,752 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-mercearia. Total products: 0
+2024-11-24 01:57:49,753 - logger - WARNING - pingo_doce.py:215 - parse_and_save_all_categories - No data found for category 'pingo-doce-mercearia'. Skipping...
+2024-11-24 01:57:49,755 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-refeicoes-prontas
+2024-11-24 01:57:49,755 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-refeicoes-prontas
+2024-11-24 01:57:52,626 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 2 pages for category pingo-doce-refeicoes-prontas
+2024-11-24 01:57:52,711 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 1 for category pingo-doce-refeicoes-prontas: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:57:57,338 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 2 for category pingo-doce-refeicoes-prontas: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:58:00,342 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-refeicoes-prontas. Total products: 0
+2024-11-24 01:58:00,342 - logger - WARNING - pingo_doce.py:215 - parse_and_save_all_categories - No data found for category 'pingo-doce-refeicoes-prontas'. Skipping...
+2024-11-24 01:58:00,342 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-cozinha-e-limpeza
+2024-11-24 01:58:00,342 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-cozinha-e-limpeza
+2024-11-24 01:58:03,746 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 3 pages for category pingo-doce-cozinha-e-limpeza
+2024-11-24 01:58:03,860 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 1 for category pingo-doce-cozinha-e-limpeza: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:58:10,136 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 2 for category pingo-doce-cozinha-e-limpeza: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:58:14,956 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 3 for category pingo-doce-cozinha-e-limpeza: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:58:17,960 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-cozinha-e-limpeza. Total products: 0
+2024-11-24 01:58:17,960 - logger - WARNING - pingo_doce.py:215 - parse_and_save_all_categories - No data found for category 'pingo-doce-cozinha-e-limpeza'. Skipping...
+2024-11-24 01:58:17,960 - logger - INFO - pingo_doce.py:205 - parse_and_save_all_categories - Processing category: pingo-doce-congelados
+2024-11-24 01:58:17,960 - logger - INFO - pingo_doce.py:160 - parse_all_pages_for_category - Starting to parse all pages for category: pingo-doce-congelados
+2024-11-24 01:58:20,747 - logger - INFO - pingo_doce.py:168 - parse_all_pages_for_category - Found 8 pages for category pingo-doce-congelados
+2024-11-24 01:58:20,839 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 1 for category pingo-doce-congelados: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:58:26,795 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 2 for category pingo-doce-congelados: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:58:32,788 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 3 for category pingo-doce-congelados: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:58:39,124 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 4 for category pingo-doce-congelados: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:58:45,543 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 5 for category pingo-doce-congelados: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:58:51,799 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 6 for category pingo-doce-congelados: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:58:57,946 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 7 for category pingo-doce-congelados: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:59:02,643 - logger - ERROR - pingo_doce.py:180 - parse_all_pages_for_category - Error parsing page 8 for category pingo-doce-congelados: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 176, in parse_all_pages_for_category
+    products_df = parse_products_from_html(html_content)
+  File "/home/runner/work/Retail-Price-Tracker/Retail-Price-Tracker/continente_price_tracker/src/pingo_doce/pingo_doce.py", line 129, in parse_products_from_html
+    product_image = product.find('img',
+TypeError: 'NoneType' object is not subscriptable
+2024-11-24 01:59:05,647 - logger - INFO - pingo_doce.py:189 - parse_all_pages_for_category - Completed parsing all pages for category pingo-doce-congelados. Total products: 0
+2024-11-24 01:59:05,648 - logger - WARNING - pingo_doce.py:215 - parse_and_save_all_categories - No data found for category 'pingo-doce-congelados'. Skipping...
+2024-11-24 01:59:05,648 - logger - INFO - pingo_doce.py:219 - parse_and_save_all_categories - Completed parsing and saving data for all categories
