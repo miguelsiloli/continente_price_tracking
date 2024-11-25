@@ -9,7 +9,9 @@ requests
 pandas
 prefect
 beautifulsoup4
-
+urllib3
+six
+tqdm
 
 # backwards compatibility
 pathlib2
