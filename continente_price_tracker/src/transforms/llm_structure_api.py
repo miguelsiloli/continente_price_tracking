@@ -215,34 +215,19 @@ class ProductNameStructurer:
             response_format={"type": "json_object"}
         )
         aws = response.choices[0].message.content
-        try:
-            # Attempt to parse the response
-            parsed_response = json.loads(aws)
-            
-            # Validate structure of the first item (assuming it's a list or dict)
-            if isinstance(parsed_response, list):
-                sample_item = parsed_response[0]
-            elif isinstance(parsed_response, dict):
-                sample_item = parsed_response
-            else:
-                raise ValueError("Unexpected response format")
-            
-            return parsed_response
+
+        # Attempt to parse the response
+        parsed_response = json.loads(aws)
         
-        except (json.JSONDecodeError) as e: #, AssertionError
-            print(f"Response validation error: {e}")
-            print(f"Raw response: {aws}")
-            
-            # Fallback to default structure
-            return [
-                {
-                    'weight': None, 
-                    'weight_unit': None, 
-                    'quantity': 1, 
-                    'qty_unit': 'un', 
-                    'product_name': name
-                } for name in product_names
-            ]
+        # Validate structure of the first item (assuming it's a list or dict)
+        if isinstance(parsed_response, list):
+            sample_item = parsed_response[0]
+        elif isinstance(parsed_response, dict):
+            sample_item = parsed_response
+        else:
+            raise ValueError("Unexpected response format")
+        
+        return parsed_response
 
     def structure_product_names(self, df, chunk_size=100, buffer_file='data/transformed/processed_products_buffer.json'):
         """
