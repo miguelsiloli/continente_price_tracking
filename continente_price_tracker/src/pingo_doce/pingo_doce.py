@@ -102,7 +102,7 @@ def parse_products_from_html(html_content):
         "product_id": pd.Series(dtype='str'),
         "product_name": pd.Series(dtype='str'),
         "product_price": pd.Series(dtype='str'),
-        "product_image": pd.Series(dtype='str'),
+        # "product_image": pd.Series(dtype='str'),
         "product_url": pd.Series(dtype='str'),
         "product_rating": pd.Series(dtype='str')
     }
@@ -126,9 +126,9 @@ def parse_products_from_html(html_content):
         product_price = product.find(
             'span', class_='product-cards_price').text.strip()
         product_data['product_price'] = product_price
-        product_image = product.find('img',
-                                     class_='product-cards__image')['src']
-        product_data['product_image'] = product_image
+        # product_image = product.find('img',
+        #                              class_='product-cards__image')['src']
+        # product_data['product_image'] = product_image
 
         try:
             product_rating = product.find('div', class_='bv_text').text.strip()
