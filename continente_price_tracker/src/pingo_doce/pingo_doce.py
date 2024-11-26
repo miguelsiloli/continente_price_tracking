@@ -12,7 +12,7 @@ src_path = os.path.abspath(
     os.path.join(os.path.dirname(__file__), '..', '..', 'src'))
 sys.path.append(src_path)
 
-from utils import retry_on_failure
+from utils import retry_on_failure, upload_csv_to_supabase_s3
 import time
 
 
@@ -189,9 +189,11 @@ def parse_all_pages_for_category(categoria):
     logger.info(f"Completed parsing all pages for category {categoria}. Total products: {len(all_products_df)}")
     return all_products_df
 
+
 def parse_and_save_all_categories(categories, base_path="data/raw/pingo_doce"):
     """
     Parses and saves the product data for multiple categories as CSV files.
+    Also uploads the files to Supabase storage.
     """
     logger.info(f"Starting to parse and save data for {len(categories)} categories")
 
@@ -200,6 +202,8 @@ def parse_and_save_all_categories(categories, base_path="data/raw/pingo_doce"):
     if not os.path.exists(base_path):
         os.makedirs(base_path)
         logger.info(f"Created directory: {base_path}")
+
+    supabase_folder = f"raw/pingo_doce/{datetime.now().strftime('%Y%m%d')}"
 
     for categoria in categories:
         logger.info(f"Processing category: {categoria}")
@@ -211,6 +215,11 @@ def parse_and_save_all_categories(categories, base_path="data/raw/pingo_doce"):
                 file_path = os.path.join(base_path, csv_filename)
                 all_products_df.to_csv(file_path, index=False)
                 logger.info(f"Saved data for category '{categoria}' to '{file_path}'. Total products: {len(all_products_df)}")
+
+                # Upload to Supabase
+                upload_csv_to_supabase_s3(logger = logger, 
+                                            file_path = file_path, 
+                                            folder_name = supabase_folder)
             else:
                 logger.warning(f"No data found for category '{categoria}'. Skipping...")
         except Exception as e:
