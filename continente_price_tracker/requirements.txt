@@ -12,7 +12,7 @@ beautifulsoup4
 urllib3
 six
 tqdm
-boto3
+boto3>=1.10.0
 wheel 
 setuptools 
 requests
