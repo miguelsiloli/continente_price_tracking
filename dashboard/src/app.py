@@ -88,12 +88,7 @@ def main():
     # Read and merge data
     merged_dataframes = read_and_merge_csv_from_supabase_s3(subfolders, credentials)
     
-    # Print summary of each DataFrame
-    for subfolder, df in zip(subfolders, merged_dataframes):
-        print(f"Subfolder: {subfolder}")
-        print(f"DataFrame shape: {df.shape}")
-        print(f"First few rows:\n{df.head()}")
-        print("---")
+    return merged_dataframes
 
 
 if __name__ == "__main__":
