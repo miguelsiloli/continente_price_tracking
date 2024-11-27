@@ -13,6 +13,9 @@ urllib3
 six
 tqdm
 boto3
+wheel 
+setuptools 
+requests
 
 # backwards compatibility
 pathlib2
