@@ -12,6 +12,7 @@ beautifulsoup4
 urllib3
 six
 tqdm
+boto3
 
 # backwards compatibility
 pathlib2
