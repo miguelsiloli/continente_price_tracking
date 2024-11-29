@@ -28,6 +28,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r continente_price_tracker/requirements.txt
 
+      - name: Create .env file
+        run: |
+          echo "SUPABASE_ACCESS_KEY_ID=${{ secrets.SUPABASE_ACCESS_KEY_ID }}" >> continente_price_tracker/.env
+          echo "SUPABASE_SECRET_ACCESS_KEY=${{ secrets.SUPABASE_SECRET_ACCESS_KEY }}" >> continente_price_tracker/.env
+          echo "SUPABASE_ENDPOINT=${{ secrets.SUPABASE_ENDPOINT }}" >> continente_price_tracker/.env
+          echo "SUPABASE_REGION=${{ secrets.SUPABASE_REGION }}" >> continente_price_tracker/.env
+          echo "SUPABASE_BUCKET_NAME=${{ secrets.SUPABASE_BUCKET_NAME }}" >> continente_price_tracker/.env
+
       - name: Run data pipeline
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB }}
