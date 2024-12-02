@@ -104,3 +104,87 @@ Implement log levels and use them appropriately:
     ERROR for error messages
     FATAL for critical errors3
 
+```mermaid
+erDiagram
+    PRODUCT {
+        INTEGER product_id_pk PK
+        CHAR product_id
+        VARCHAR product_name
+        VARCHAR source
+    }
+
+    PRODUCT_PRICING {
+        INTEGER product_id_pk FK
+        DECIMAL product_price
+        CHAR price_currency
+        DATETIME timestamp
+    }
+
+    CATEGORY_HIERARCHY {
+        SMALLINT category_id PK
+        VARCHAR category_level1
+        VARCHAR category_level2
+        VARCHAR category_level3
+    }
+
+    PRODUCT_CATEGORY {
+        INTEGER product_id_pk FK
+        SMALLINT category_id FK
+        PRIMARY KEY product_id_pk
+        PRIMARY KEY category_id
+    }
+
+    PRODUCT_METADATA {
+        INTEGER metadata_id PK
+        INTEGER product_id_pk FK
+        VARCHAR brand
+        VARCHAR price_per_unit
+        SMALLINT minimum_quantity
+        TEXT product_url
+        TEXT product_image_url
+    }
+
+    PRODUCT ||--o| PRODUCT_PRICING : has
+    PRODUCT ||--o| PRODUCT_CATEGORY : has
+    PRODUCT ||--o| PRODUCT_METADATA : contains
+    CATEGORY_HIERARCHY ||--o| PRODUCT_CATEGORY : contains
+
+
+```
+
+given an input dataframe with this struct
+
+[
+0:
+"product_id"
+1:
+"product_name"
+2:
+"product_price"
+3:
+"product_category"
+4:
+"product_category2"
+5:
+"product_category3"
+6:
+"product_image"
+7:
+"product_urls"
+8:
+"product_ratings"
+9:
+"product_labels"
+10:
+"product_promotions"
+11:
+"source"
+12:
+"timestamp"
+]
+
+create functions to take it as input and return a dataframe which match the following requirements:
+
+func name auchan_product_table output df Expected columns: product_id, product_name, source.
+func name auchan_category_table output df Expected columns: product_category, product_category2, product_category3.
+func name product_category_table product_id, source, product_category, product_category2, product_category3.

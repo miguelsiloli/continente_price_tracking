@@ -1,4 +1,4 @@
-    """
+"""
 Given a product description, extract the following structured fields:
 - weight: numeric value representing the weight (default to "none" if not present)
 - weight_unit: the unit of the weight (e.g., g, kg, ml; default to "none" if not present)
