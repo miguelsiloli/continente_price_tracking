@@ -157,7 +157,7 @@ class ProductDatabaseInterface:
         self.conn.commit()
 
 
-    def bulk_insert_into_product_table(self, df_product, chunk_size=500):
+    def bulk_insert_into_product_table(self, df_product, chunk_size=1000):
         """
         Bulk insert products using execute_values in smaller chunks for efficiency and to avoid timeouts.
         Ensures all product_id_pk are retrieved, even for existing records.
@@ -236,7 +236,7 @@ class ProductDatabaseInterface:
         '''
     
         # Use execute_batch with the corrected query and placeholders
-        execute_batch(self.cursor, insert_query, data_to_insert, page_size=100)
+        execute_batch(self.cursor, insert_query, data_to_insert, page_size=1000)
         self.conn.commit()
 
     def bulk_insert_into_category_hierarchy_table(self, df_category):
@@ -250,7 +250,7 @@ class ProductDatabaseInterface:
         data_to_insert = df_category[['category_level1', 'category_level2', 'category_level3']].values.tolist()
     
         category_ids = []
-        chunk_size = 100
+        chunk_size = 1000
     
         # Process in chunks with tqdm progress bar
         for i in tqdm(range(0, len(data_to_insert), chunk_size), desc="Inserting Categories"):

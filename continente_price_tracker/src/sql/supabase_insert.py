@@ -4,7 +4,7 @@ from auchan.preprocessing import *
 
 def preprocess_and_insert_data(parquet_file, db_interface):
     # Step 1: Read data from the Parquet file
-    df = pd.read_parquet(parquet_file)[0:5000]
+    df = pd.read_parquet(parquet_file)
     
     # Drop duplicates for the same product_id, source and timestamp
     df = df.drop_duplicates(subset=['product_id', 'source', 'timestamp'])
