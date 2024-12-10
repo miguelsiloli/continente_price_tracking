@@ -1,5 +1,4 @@
 import psycopg2
-import pandas as pd
 from tqdm import tqdm
 from psycopg2.extras import execute_batch, execute_values
 from auchan.preprocessing import split_price, to_unix_time
@@ -313,7 +312,6 @@ class ProductDatabaseInterface:
         
         # Prepare data for bulk insert
         data_to_insert = []
-        print(product_ids_pk, category_ids)
         for idx in tqdm(range(len(df_product_category)), desc="Preparing Product-Category Relationships"):
             data_to_insert.append((
                 product_ids_pk[idx], 

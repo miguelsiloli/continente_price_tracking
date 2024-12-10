@@ -1,8 +1,7 @@
 import pandas as pd
-from auchan.supabase_interface import ProductDatabaseInterface
 from auchan.preprocessing import *
 
-def preprocess_and_insert_data(parquet_file, db_interface):
+def preprocess_and_insert_data_auchan(parquet_file, db_interface):
     # Step 1: Read data from the Parquet file
     df = pd.read_parquet(parquet_file)
     
@@ -19,7 +18,7 @@ def preprocess_and_insert_data(parquet_file, db_interface):
     df_product = auchan_product_table(df)
     df_category = auchan_category_table(df)  
     df_product_category = product_category_hierarchy_table(df)
-    df_metadata = auchan_metadata_table(df)  
+    # df_metadata = auchan_metadata_table(df)  
     df_pricing = product_product_pricing(df)  
     
     # Step 3: Insert into respective tables using the new bulk insert methods
@@ -38,13 +37,3 @@ def preprocess_and_insert_data(parquet_file, db_interface):
    
     # Insert product pricing
     db_interface.bulk_insert_into_product_pricing_table(df_pricing, product_ids_pk)
-
-# Initialize the database interface
-# No need to specify db_name for PostgreSQL connection
-db_interface = ProductDatabaseInterface()
-
-# Path to the Parquet file
-parquet_file = 'data/raw/auchan_combined.parquet'
-
-# Step 4: Preprocess the data and insert into the database
-preprocess_and_insert_data(parquet_file, db_interface)
